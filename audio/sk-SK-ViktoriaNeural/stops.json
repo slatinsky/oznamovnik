@@ -1,0 +1,3452 @@
+[
+    {
+        "stop_code": "1",
+        "stop_name": "Alexyho",
+        "slug": "001-alexyho",
+        "text_to_speech": "Alexyho"
+    },
+    {
+        "stop_code": "3",
+        "stop_name": "Americké nám.",
+        "slug": "003-americke-nam",
+        "text_to_speech": "Americké námestie"
+    },
+    {
+        "stop_code": "4",
+        "stop_name": "Depo Hroboňova",
+        "slug": "004-depo-hrobonova",
+        "text_to_speech": "Depo Hroboňova"
+    },
+    {
+        "stop_code": "5",
+        "stop_name": "Autobusová stanica",
+        "slug": "005-autobusova-stanica",
+        "text_to_speech": "Autobusová stanica"
+    },
+    {
+        "stop_code": "6",
+        "stop_name": "Astronomická",
+        "slug": "006-astronomicka",
+        "text_to_speech": "Astronomická"
+    },
+    {
+        "stop_code": "8",
+        "stop_name": "Bajkalská",
+        "slug": "008-bajkalska",
+        "text_to_speech": "Bajkalská"
+    },
+    {
+        "stop_code": "9",
+        "stop_name": "Bakošova",
+        "slug": "009-bakosova",
+        "text_to_speech": "Bakošova"
+    },
+    {
+        "stop_code": "11",
+        "stop_name": "Bárdošova",
+        "slug": "011-bardosova",
+        "text_to_speech": "Bárdošova"
+    },
+    {
+        "stop_code": "12",
+        "stop_name": "Barónka",
+        "slug": "012-baronka",
+        "text_to_speech": "Barónka"
+    },
+    {
+        "stop_code": "13",
+        "stop_name": "Lieskovská cesta",
+        "slug": "013-lieskovska-cesta",
+        "text_to_speech": "Lieskovská cesta"
+    },
+    {
+        "stop_code": "14",
+        "stop_name": "Rybničná",
+        "slug": "014-rybnicna",
+        "text_to_speech": "Rybničná"
+    },
+    {
+        "stop_code": "15",
+        "stop_name": "Bilíkova",
+        "slug": "015-bilikova",
+        "text_to_speech": "Bilíkova"
+    },
+    {
+        "stop_code": "17",
+        "stop_name": "Bodrocká",
+        "slug": "017-bodrocka",
+        "text_to_speech": "Bodrocká"
+    },
+    {
+        "stop_code": "18",
+        "stop_name": "Bojnická",
+        "slug": "018-bojnicka",
+        "text_to_speech": "Bojnická"
+    },
+    {
+        "stop_code": "19",
+        "stop_name": "Borská",
+        "slug": "019-borska",
+        "text_to_speech": "Borská"
+    },
+    {
+        "stop_code": "20",
+        "stop_name": "Bosákova",
+        "slug": "020-bosakova",
+        "text_to_speech": "Bosákova"
+    },
+    {
+        "stop_code": "21",
+        "stop_name": "Botanická záhrada",
+        "slug": "021-botanicka-zahrada",
+        "text_to_speech": "Botanická záhrada"
+    },
+    {
+        "stop_code": "22",
+        "stop_name": "Bradáčova",
+        "slug": "022-bradacova",
+        "text_to_speech": "Bradáčova"
+    },
+    {
+        "stop_code": "23",
+        "stop_name": "Brodná",
+        "slug": "023-brodna",
+        "text_to_speech": "Brodná"
+    },
+    {
+        "stop_code": "24",
+        "stop_name": "Budatínska",
+        "slug": "024-budatinska",
+        "text_to_speech": "Budatínska"
+    },
+    {
+        "stop_code": "25",
+        "stop_name": "Bukovinská",
+        "slug": "025-bukovinska",
+        "text_to_speech": "Bukovinská"
+    },
+    {
+        "stop_code": "26",
+        "stop_name": "Bulharská",
+        "slug": "026-bulharska",
+        "text_to_speech": "Bulharská"
+    },
+    {
+        "stop_code": "27",
+        "stop_name": "Bulíkova",
+        "slug": "027-bulikova",
+        "text_to_speech": "Bulíkova"
+    },
+    {
+        "stop_code": "28",
+        "stop_name": "Bystrická",
+        "slug": "028-bystricka",
+        "text_to_speech": "Bystrická"
+    },
+    {
+        "stop_code": "29",
+        "stop_name": "Bzovícka",
+        "slug": "029-bzovicka",
+        "text_to_speech": "Bzovícka"
+    },
+    {
+        "stop_code": "30",
+        "stop_name": "Deviaty mlyn",
+        "slug": "030-deviaty-mlyn",
+        "text_to_speech": "Deviaty mlyn"
+    },
+    {
+        "stop_code": "32",
+        "stop_name": "Cintorín Vrakuňa",
+        "slug": "032-cintorin-vrakuna",
+        "text_to_speech": "Cintorín Vrakuňa"
+    },
+    {
+        "stop_code": "33",
+        "stop_name": "Ondrejský cintorín",
+        "slug": "033-ondrejsky-cintorin",
+        "text_to_speech": "Ondrejský cintorín"
+    },
+    {
+        "stop_code": "34",
+        "stop_name": "Clementisova",
+        "slug": "034-clementisova",
+        "text_to_speech": "Clementisova"
+    },
+    {
+        "stop_code": "36",
+        "stop_name": "Černockého",
+        "slug": "036-cernockeho",
+        "text_to_speech": "Černockého"
+    },
+    {
+        "stop_code": "38",
+        "stop_name": "Červený kríž",
+        "slug": "038-cerveny-kriz",
+        "text_to_speech": "Červený kríž"
+    },
+    {
+        "stop_code": "41",
+        "stop_name": "Čierny chodník",
+        "slug": "041-cierny-chodnik",
+        "text_to_speech": "Čierny chodník"
+    },
+    {
+        "stop_code": "42",
+        "stop_name": "Čiližská",
+        "slug": "042-cilizska",
+        "text_to_speech": "Čiližská"
+    },
+    {
+        "stop_code": "43",
+        "stop_name": "Napájiská",
+        "slug": "043-napajiska",
+        "text_to_speech": "Napájiská"
+    },
+    {
+        "stop_code": "44",
+        "stop_name": "ČOV Vlčie hrdlo",
+        "slug": "044-cov-vlcie-hrdlo",
+        "text_to_speech": "Čistiareň odpadových vôd Vlčie hrdlo"
+    },
+    {
+        "stop_code": "45",
+        "stop_name": "Čremchová",
+        "slug": "045-cremchova",
+        "text_to_speech": "Čremchová"
+    },
+    {
+        "stop_code": "46",
+        "stop_name": "Čulenova",
+        "slug": "046-culenova",
+        "text_to_speech": "Čulenova"
+    },
+    {
+        "stop_code": "47",
+        "stop_name": "Čunovo",
+        "slug": "047-cunovo",
+        "text_to_speech": "Čunovo"
+    },
+    {
+        "stop_code": "48",
+        "stop_name": "MiÚ Čunovo",
+        "slug": "048-miu-cunovo",
+        "text_to_speech": "Miestny úrad Čunovo"
+    },
+    {
+        "stop_code": "49",
+        "stop_name": "Čunovo, kostol",
+        "slug": "049-cunovo-kostol",
+        "text_to_speech": "Čunovo, kostol"
+    },
+    {
+        "stop_code": "50",
+        "stop_name": "Čunovské jazerá",
+        "slug": "050-cunovske-jazera",
+        "text_to_speech": "Čunovské jazerá"
+    },
+    {
+        "stop_code": "51",
+        "stop_name": "Záluhy",
+        "slug": "051-zaluhy",
+        "text_to_speech": "Záluhy"
+    },
+    {
+        "stop_code": "52",
+        "stop_name": "OC Rožňavská",
+        "slug": "052-oc-roznavska",
+        "text_to_speech": "Obchodné centrum Rožňavská"
+    },
+    {
+        "stop_code": "54",
+        "stop_name": "Uhrovecká",
+        "slug": "054-uhrovecka",
+        "text_to_speech": "Uhrovecká"
+    },
+    {
+        "stop_code": "55",
+        "stop_name": "Devätinová",
+        "slug": "055-devatinova",
+        "text_to_speech": "Devätinová"
+    },
+    {
+        "stop_code": "56",
+        "stop_name": "Hrad Devín",
+        "slug": "056-hrad-devin",
+        "text_to_speech": "Hrad Devín"
+    },
+    {
+        "stop_code": "57",
+        "stop_name": "Slovanské nábr.",
+        "slug": "057-slovanske-nabr",
+        "text_to_speech": "Slovanské nábrežie"
+    },
+    {
+        "stop_code": "58",
+        "stop_name": "Waitov lom",
+        "slug": "058-waitov-lom",
+        "text_to_speech": "Waitov lom"
+    },
+    {
+        "stop_code": "59",
+        "stop_name": "Dievčí hrádok",
+        "slug": "059-dievci-hradok",
+        "text_to_speech": "Dievčí hrádok"
+    },
+    {
+        "stop_code": "60",
+        "stop_name": "Dolné Krčace",
+        "slug": "060-dolne-krcace",
+        "text_to_speech": "Dolné Krčace"
+    },
+    {
+        "stop_code": "61",
+        "stop_name": "Depo Petržalka",
+        "slug": "061-depo-petrzalka",
+        "text_to_speech": "Depo Petržalka"
+    },
+    {
+        "stop_code": "63",
+        "stop_name": "Domkárska",
+        "slug": "063-domkarska",
+        "text_to_speech": "Domkárska"
+    },
+    {
+        "stop_code": "64",
+        "stop_name": "Mokraď",
+        "slug": "064-mokrad",
+        "text_to_speech": "Mokraď"
+    },
+    {
+        "stop_code": "66",
+        "stop_name": "Starý háj",
+        "slug": "066-stary-haj",
+        "text_to_speech": "Starý háj"
+    },
+    {
+        "stop_code": "67",
+        "stop_name": "Drieňová",
+        "slug": "067-drienova",
+        "text_to_speech": "Drieňová"
+    },
+    {
+        "stop_code": "68",
+        "stop_name": "Drobného",
+        "slug": "068-drobneho",
+        "text_to_speech": "Drobného"
+    },
+    {
+        "stop_code": "69",
+        "stop_name": "Búdková",
+        "slug": "069-budkova",
+        "text_to_speech": "Búdková"
+    },
+    {
+        "stop_code": "70",
+        "stop_name": "Dubová",
+        "slug": "070-dubova",
+        "text_to_speech": "Dubová"
+    },
+    {
+        "stop_code": "71",
+        "stop_name": "Dudvážska",
+        "slug": "071-dudvazska",
+        "text_to_speech": "Dudvážska"
+    },
+    {
+        "stop_code": "72",
+        "stop_name": "Dulovo nám.",
+        "slug": "072-dulovo-nam",
+        "text_to_speech": "Dulovo námestie"
+    },
+    {
+        "stop_code": "74",
+        "stop_name": "Dvory",
+        "slug": "074-dvory",
+        "text_to_speech": "Dvory"
+    },
+    {
+        "stop_code": "76",
+        "stop_name": "Einsteinova",
+        "slug": "076-einsteinova",
+        "text_to_speech": "Einsteinova"
+    },
+    {
+        "stop_code": "77",
+        "stop_name": "Ekonom. univerzita",
+        "slug": "077-ekonom-univerzita",
+        "text_to_speech": "Ekonomická univerzita"
+    },
+    {
+        "stop_code": "78",
+        "stop_name": "Estónska",
+        "slug": "078-estonska",
+        "text_to_speech": "Estónska"
+    },
+    {
+        "stop_code": "79",
+        "stop_name": "Farského",
+        "slug": "079-farskeho",
+        "text_to_speech": "Farského"
+    },
+    {
+        "stop_code": "80",
+        "stop_name": "Blumentál",
+        "slug": "080-blumental",
+        "text_to_speech": "Blumentál"
+    },
+    {
+        "stop_code": "81",
+        "stop_name": "Agátová",
+        "slug": "081-agatova",
+        "text_to_speech": "Agátová"
+    },
+    {
+        "stop_code": "82",
+        "stop_name": "Gagarinova",
+        "slug": "082-gagarinova",
+        "text_to_speech": "Gagarinova"
+    },
+    {
+        "stop_code": "83",
+        "stop_name": "Ivanská cesta",
+        "slug": "083-ivanska-cesta",
+        "text_to_speech": "Ivanská cesta"
+    },
+    {
+        "stop_code": "84",
+        "stop_name": "Haburská",
+        "slug": "084-haburska",
+        "text_to_speech": "Haburská"
+    },
+    {
+        "stop_code": "85",
+        "stop_name": "Hájovňa",
+        "slug": "085-hajovna",
+        "text_to_speech": "Hájovňa"
+    },
+    {
+        "stop_code": "86",
+        "stop_name": "Hálkova",
+        "slug": "086-halkova",
+        "text_to_speech": "Hálkova"
+    },
+    {
+        "stop_code": "87",
+        "stop_name": "Hálova",
+        "slug": "087-halova",
+        "text_to_speech": "Hálova"
+    },
+    {
+        "stop_code": "88",
+        "stop_name": "Hanácka",
+        "slug": "088-hanacka",
+        "text_to_speech": "Hanácka"
+    },
+    {
+        "stop_code": "89",
+        "stop_name": "Hany Meličkovej",
+        "slug": "089-hany-melickovej",
+        "text_to_speech": "Hany Meličkovej"
+    },
+    {
+        "stop_code": "90",
+        "stop_name": "Harmincova",
+        "slug": "090-harmincova",
+        "text_to_speech": "Harmincova"
+    },
+    {
+        "stop_code": "91",
+        "stop_name": "Hečkova",
+        "slug": "091-heckova",
+        "text_to_speech": "Hečkova"
+    },
+    {
+        "stop_code": "92",
+        "stop_name": "Herlianska",
+        "slug": "092-herlianska",
+        "text_to_speech": "Herlianska"
+    },
+    {
+        "stop_code": "93",
+        "stop_name": "Hlavná stanica",
+        "slug": "093-hlavna-stanica",
+        "text_to_speech": "Hlavná stanica"
+    },
+    {
+        "stop_code": "95",
+        "stop_name": "Hodžovo nám.",
+        "slug": "095-hodzovo-nam",
+        "text_to_speech": "Hodžovo námestie"
+    },
+    {
+        "stop_code": "96",
+        "stop_name": "Holíčska",
+        "slug": "096-holicska",
+        "text_to_speech": "Holíčska"
+    },
+    {
+        "stop_code": "97",
+        "stop_name": "Homolova",
+        "slug": "097-homolova",
+        "text_to_speech": "Homolova"
+    },
+    {
+        "stop_code": "98",
+        "stop_name": "Horné Krčace",
+        "slug": "098-horne-krcace",
+        "text_to_speech": "Horné Krčace"
+    },
+    {
+        "stop_code": "99",
+        "stop_name": "Horský park",
+        "slug": "099-horsky-park",
+        "text_to_speech": "Horský park"
+    },
+    {
+        "stop_code": "100",
+        "stop_name": "Hospodárska",
+        "slug": "100-hospodarska",
+        "text_to_speech": "Hospodárska"
+    },
+    {
+        "stop_code": "101",
+        "stop_name": "Hrad",
+        "slug": "101-hrad",
+        "text_to_speech": "Hrad"
+    },
+    {
+        "stop_code": "102",
+        "stop_name": "Hradištná",
+        "slug": "102-hradistna",
+        "text_to_speech": "Hradištná"
+    },
+    {
+        "stop_code": "104",
+        "stop_name": "Hraničná",
+        "slug": "104-hranicna",
+        "text_to_speech": "Hraničná"
+    },
+    {
+        "stop_code": "105",
+        "stop_name": "Hrobákova",
+        "slug": "105-hrobakova",
+        "text_to_speech": "Hrobákova"
+    },
+    {
+        "stop_code": "106",
+        "stop_name": "Hroboňova",
+        "slug": "106-hrobonova",
+        "text_to_speech": "Hroboňova"
+    },
+    {
+        "stop_code": "107",
+        "stop_name": "Hronská",
+        "slug": "107-hronska",
+        "text_to_speech": "Hronská"
+    },
+    {
+        "stop_code": "108",
+        "stop_name": "Hubeného",
+        "slug": "108-hubeneho",
+        "text_to_speech": "Hubeného"
+    },
+    {
+        "stop_code": "109",
+        "stop_name": "Hummelova",
+        "slug": "109-hummelova",
+        "text_to_speech": "Hummelova"
+    },
+    {
+        "stop_code": "110",
+        "stop_name": "Husova",
+        "slug": "110-husova",
+        "text_to_speech": "Husova"
+    },
+    {
+        "stop_code": "111",
+        "stop_name": "Hybešova",
+        "slug": "111-hybesova",
+        "text_to_speech": "Hybešova"
+    },
+    {
+        "stop_code": "112",
+        "stop_name": "Závodná",
+        "slug": "112-zavodna",
+        "text_to_speech": "Závodná"
+    },
+    {
+        "stop_code": "113",
+        "stop_name": "Jánske hony",
+        "slug": "113-janske-hony",
+        "text_to_speech": "Jánske hony"
+    },
+    {
+        "stop_code": "114",
+        "stop_name": "Hýrošova",
+        "slug": "114-hyrosova",
+        "text_to_speech": "Hýrošova"
+    },
+    {
+        "stop_code": "115",
+        "stop_name": "Chlumeckého",
+        "slug": "115-chlumeckeho",
+        "text_to_speech": "Chlumeckého"
+    },
+    {
+        "stop_code": "116",
+        "stop_name": "Ihrisková",
+        "slug": "116-ihriskova",
+        "text_to_speech": "Ihrisková"
+    },
+    {
+        "stop_code": "117",
+        "stop_name": "Klientske centrum",
+        "slug": "117-klientske-centrum",
+        "text_to_speech": "Klientske centrum"
+    },
+    {
+        "stop_code": "119",
+        "stop_name": "Inovecká",
+        "slug": "119-inovecka",
+        "text_to_speech": "Inovecká"
+    },
+    {
+        "stop_code": "120",
+        "stop_name": "V. hrdlo, internát",
+        "slug": "120-v-hrdlo-internat",
+        "text_to_speech": "Vlčie hrdlo, internát"
+    },
+    {
+        "stop_code": "121",
+        "stop_name": "Ivana Bukovčana",
+        "slug": "121-ivana-bukovcana",
+        "text_to_speech": "Ivana Bukovčana"
+    },
+    {
+        "stop_code": "122",
+        "stop_name": "Planét",
+        "slug": "122-planet",
+        "text_to_speech": "Planét"
+    },
+    {
+        "stop_code": "123",
+        "stop_name": "Jančova",
+        "slug": "123-jancova",
+        "text_to_speech": "Jančova"
+    },
+    {
+        "stop_code": "124",
+        "stop_name": "Janotova",
+        "slug": "124-janotova",
+        "text_to_speech": "Janotova"
+    },
+    {
+        "stop_code": "125",
+        "stop_name": "Jarovce",
+        "slug": "125-jarovce",
+        "text_to_speech": "Jarovce"
+    },
+    {
+        "stop_code": "126",
+        "stop_name": "Jarovce, záhrady",
+        "slug": "126-jarovce-zahrady",
+        "text_to_speech": "Jarovce, záhrady"
+    },
+    {
+        "stop_code": "127",
+        "stop_name": "Jasovská",
+        "slug": "127-jasovska",
+        "text_to_speech": "Jasovská"
+    },
+    {
+        "stop_code": "128",
+        "stop_name": "Jelačičova",
+        "slug": "128-jelacicova",
+        "text_to_speech": "Jelačičova"
+    },
+    {
+        "stop_code": "129",
+        "stop_name": "Jeséniova",
+        "slug": "129-jeseniova",
+        "text_to_speech": "Jeséniova"
+    },
+    {
+        "stop_code": "130",
+        "stop_name": "Jesenského",
+        "slug": "130-jesenskeho",
+        "text_to_speech": "Jesenského"
+    },
+    {
+        "stop_code": "131",
+        "stop_name": "Jiráskova",
+        "slug": "131-jiraskova",
+        "text_to_speech": "Jiráskova"
+    },
+    {
+        "stop_code": "132",
+        "stop_name": "Jungmannova",
+        "slug": "132-jungmannova",
+        "text_to_speech": "Jungmannova"
+    },
+    {
+        "stop_code": "133",
+        "stop_name": "Jurajov dvor",
+        "slug": "133-jurajov-dvor",
+        "text_to_speech": "Jurajov dvor"
+    },
+    {
+        "stop_code": "134",
+        "stop_name": "Jurigovo nám.",
+        "slug": "134-jurigovo-nam",
+        "text_to_speech": "Jurigovo námestie"
+    },
+    {
+        "stop_code": "135",
+        "stop_name": "Jurigrad",
+        "slug": "135-jurigrad",
+        "text_to_speech": "Jurigrad"
+    },
+    {
+        "stop_code": "137",
+        "stop_name": "Kadlečík",
+        "slug": "137-kadlecik",
+        "text_to_speech": "Kadlečík"
+    },
+    {
+        "stop_code": "138",
+        "stop_name": "Kadnárova",
+        "slug": "138-kadnarova",
+        "text_to_speech": "Kadnárova"
+    },
+    {
+        "stop_code": "139",
+        "stop_name": "Centrum",
+        "slug": "139-centrum",
+        "text_to_speech": "Centrum"
+    },
+    {
+        "stop_code": "140",
+        "stop_name": "Kameňolom",
+        "slug": "140-kamenolom",
+        "text_to_speech": "Kameňolom"
+    },
+    {
+        "stop_code": "141",
+        "stop_name": "Kapucínska",
+        "slug": "141-kapucinska",
+        "text_to_speech": "Kapucínska"
+    },
+    {
+        "stop_code": "142",
+        "stop_name": "Karadžičova",
+        "slug": "142-karadzicova",
+        "text_to_speech": "Karadžičova"
+    },
+    {
+        "stop_code": "143",
+        "stop_name": "Kútiky",
+        "slug": "143-kutiky",
+        "text_to_speech": "Kútiky"
+    },
+    {
+        "stop_code": "144",
+        "stop_name": "Karpatská",
+        "slug": "144-karpatska",
+        "text_to_speech": "Karpatská"
+    },
+    {
+        "stop_code": "147",
+        "stop_name": "MiÚ Ružinov",
+        "slug": "147-miu-ruzinov",
+        "text_to_speech": "Miestny úrad Ružinov"
+    },
+    {
+        "stop_code": "148",
+        "stop_name": "Klanec",
+        "slug": "148-klanec",
+        "text_to_speech": "Klanec"
+    },
+    {
+        "stop_code": "149",
+        "stop_name": "Klenová",
+        "slug": "149-klenova",
+        "text_to_speech": "Klenová"
+    },
+    {
+        "stop_code": "150",
+        "stop_name": "Klepáč",
+        "slug": "150-klepac",
+        "text_to_speech": "Klepáč"
+    },
+    {
+        "stop_code": "151",
+        "stop_name": "Koliba",
+        "slug": "151-koliba",
+        "text_to_speech": "Koliba"
+    },
+    {
+        "stop_code": "152",
+        "stop_name": "Kollárovo nám.",
+        "slug": "152-kollarovo-nam",
+        "text_to_speech": "Kollárovo námestie"
+    },
+    {
+        "stop_code": "153",
+        "stop_name": "Kolmá",
+        "slug": "153-kolma",
+        "text_to_speech": "Kolmá"
+    },
+    {
+        "stop_code": "154",
+        "stop_name": "Pálenisko",
+        "slug": "154-palenisko",
+        "text_to_speech": "Pálenisko"
+    },
+    {
+        "stop_code": "155",
+        "stop_name": "Komárovská",
+        "slug": "155-komarovska",
+        "text_to_speech": "Komárovská"
+    },
+    {
+        "stop_code": "156",
+        "stop_name": "Komisárky",
+        "slug": "156-komisarky",
+        "text_to_speech": "Komisárky"
+    },
+    {
+        "stop_code": "157",
+        "stop_name": "Koniarkova",
+        "slug": "157-koniarkova",
+        "text_to_speech": "Koniarkova"
+    },
+    {
+        "stop_code": "158",
+        "stop_name": "Bratská",
+        "slug": "158-bratska",
+        "text_to_speech": "Bratská"
+    },
+    {
+        "stop_code": "159",
+        "stop_name": "Korytnická",
+        "slug": "159-korytnicka",
+        "text_to_speech": "Korytnická"
+    },
+    {
+        "stop_code": "160",
+        "stop_name": "Košická",
+        "slug": "160-kosicka",
+        "text_to_speech": "Košická"
+    },
+    {
+        "stop_code": "161",
+        "stop_name": "Kovácsova",
+        "slug": "161-kovacsova",
+        "text_to_speech": "Kovácsova"
+    },
+    {
+        "stop_code": "163",
+        "stop_name": "Kozia",
+        "slug": "163-kozia",
+        "text_to_speech": "Kozia"
+    },
+    {
+        "stop_code": "164",
+        "stop_name": "Nemocnica Kramáre",
+        "slug": "164-nemocnica-kramare",
+        "text_to_speech": "Nemocnica Kramáre"
+    },
+    {
+        "stop_code": "165",
+        "stop_name": "Krásna",
+        "slug": "165-krasna",
+        "text_to_speech": "Krásna"
+    },
+    {
+        "stop_code": "168",
+        "stop_name": "Krče",
+        "slug": "168-krce",
+        "text_to_speech": "Krče"
+    },
+    {
+        "stop_code": "170",
+        "stop_name": "K Zlatému rohu",
+        "slug": "170-k-zlatemu-rohu",
+        "text_to_speech": "K Zlatému rohu"
+    },
+    {
+        "stop_code": "172",
+        "stop_name": "Kremnická",
+        "slug": "172-kremnicka",
+        "text_to_speech": "Kremnická"
+    },
+    {
+        "stop_code": "173",
+        "stop_name": "Krížna",
+        "slug": "173-krizna",
+        "text_to_speech": "Krížna"
+    },
+    {
+        "stop_code": "174",
+        "stop_name": "Krpáš",
+        "slug": "174-krpas",
+        "text_to_speech": "Krpáš"
+    },
+    {
+        "stop_code": "175",
+        "stop_name": "Dlhé diely",
+        "slug": "175-dlhe-diely",
+        "text_to_speech": "Dlhé diely"
+    },
+    {
+        "stop_code": "176",
+        "stop_name": "Slovany",
+        "slug": "176-slovany",
+        "text_to_speech": "Slovany"
+    },
+    {
+        "stop_code": "177",
+        "stop_name": "Kulíškova",
+        "slug": "177-kuliskova",
+        "text_to_speech": "Kulíškova"
+    },
+    {
+        "stop_code": "178",
+        "stop_name": "Kapitulský dvor",
+        "slug": "178-kapitulsky-dvor",
+        "text_to_speech": "Kapitulský dvor"
+    },
+    {
+        "stop_code": "179",
+        "stop_name": "Kvačalova",
+        "slug": "179-kvacalova",
+        "text_to_speech": "Kvačalova"
+    },
+    {
+        "stop_code": "180",
+        "stop_name": "Nám. sv. Františka",
+        "slug": "180-nam-sv-frantiska",
+        "text_to_speech": "námestie svätého Františka"
+    },
+    {
+        "stop_code": "181",
+        "stop_name": "Lanfranconi",
+        "slug": "181-lanfranconi",
+        "text_to_speech": "Lanfranconi"
+    },
+    {
+        "stop_code": "182",
+        "stop_name": "Lachova",
+        "slug": "182-lachova",
+        "text_to_speech": "Lachova"
+    },
+    {
+        "stop_code": "183",
+        "stop_name": "Lamač",
+        "slug": "183-lamac",
+        "text_to_speech": "Lamač"
+    },
+    {
+        "stop_code": "184",
+        "stop_name": "Lanovka",
+        "slug": "184-lanovka",
+        "text_to_speech": "Lanovka"
+    },
+    {
+        "stop_code": "187",
+        "stop_name": "Bukva",
+        "slug": "187-bukva",
+        "text_to_speech": "Bukva"
+    },
+    {
+        "stop_code": "188",
+        "stop_name": "Lesopark",
+        "slug": "188-lesopark",
+        "text_to_speech": "Lesopark"
+    },
+    {
+        "stop_code": "189",
+        "stop_name": "Letisko / Airport",
+        "slug": "189-letisko-airport",
+        "text_to_speech": "Letisko"
+    },
+    {
+        "stop_code": "191",
+        "stop_name": "Lieskovec",
+        "slug": "191-lieskovec",
+        "text_to_speech": "Lieskovec"
+    },
+    {
+        "stop_code": "192",
+        "stop_name": "Dúbravská cesta",
+        "slug": "192-dubravska-cesta",
+        "text_to_speech": "Dúbravská cesta"
+    },
+    {
+        "stop_code": "193",
+        "stop_name": "Lipského",
+        "slug": "193-lipskeho",
+        "text_to_speech": "Lipského"
+    },
+    {
+        "stop_code": "194",
+        "stop_name": "Lodenica",
+        "slug": "194-lodenica",
+        "text_to_speech": "Lodenica"
+    },
+    {
+        "stop_code": "195",
+        "stop_name": "Rušňové depo I",
+        "slug": "195-rusnove-depo-i",
+        "text_to_speech": "Rušňové depo 1"
+    },
+    {
+        "stop_code": "196",
+        "stop_name": "Rušňové depo II",
+        "slug": "196-rusnove-depo-ii",
+        "text_to_speech": "Rušňové depo 2"
+    },
+    {
+        "stop_code": "197",
+        "stop_name": "Lopenícka",
+        "slug": "197-lopenicka",
+        "text_to_speech": "Lopenícka"
+    },
+    {
+        "stop_code": "198",
+        "stop_name": "Lovinského",
+        "slug": "198-lovinskeho",
+        "text_to_speech": "Lovinského"
+    },
+    {
+        "stop_code": "199",
+        "stop_name": "Ľubovnianska",
+        "slug": "199-lubovnianska",
+        "text_to_speech": "Ľubovnianska"
+    },
+    {
+        "stop_code": "200",
+        "stop_name": "Lúčanka",
+        "slug": "200-lucanka",
+        "text_to_speech": "Lúčanka"
+    },
+    {
+        "stop_code": "202",
+        "stop_name": "Lúky II",
+        "slug": "202-luky-ii",
+        "text_to_speech": "Lúky 2"
+    },
+    {
+        "stop_code": "203",
+        "stop_name": "Lúky V",
+        "slug": "203-luky-v",
+        "text_to_speech": "Lúky 5"
+    },
+    {
+        "stop_code": "204",
+        "stop_name": "Tupolevova",
+        "slug": "204-tupolevova",
+        "text_to_speech": "Tupolevova"
+    },
+    {
+        "stop_code": "205",
+        "stop_name": "Magnetová",
+        "slug": "205-magnetova",
+        "text_to_speech": "Magnetová"
+    },
+    {
+        "stop_code": "206",
+        "stop_name": "Magurská",
+        "slug": "206-magurska",
+        "text_to_speech": "Magurská"
+    },
+    {
+        "stop_code": "207",
+        "stop_name": "Majerská",
+        "slug": "207-majerska",
+        "text_to_speech": "Majerská"
+    },
+    {
+        "stop_code": "208",
+        "stop_name": "Malá scéna",
+        "slug": "208-mala-scena",
+        "text_to_speech": "Malá scéna"
+    },
+    {
+        "stop_code": "209",
+        "stop_name": "Mariánska",
+        "slug": "209-marianska",
+        "text_to_speech": "Mariánska"
+    },
+    {
+        "stop_code": "210",
+        "stop_name": "Markova",
+        "slug": "210-markova",
+        "text_to_speech": "Markova"
+    },
+    {
+        "stop_code": "211",
+        "stop_name": "Martinský cintorín",
+        "slug": "211-martinsky-cintorin",
+        "text_to_speech": "Martinský cintorín"
+    },
+    {
+        "stop_code": "212",
+        "stop_name": "Matejkova",
+        "slug": "212-matejkova",
+        "text_to_speech": "Matejkova"
+    },
+    {
+        "stop_code": "213",
+        "stop_name": "MiÚ Nové Mesto",
+        "slug": "213-miu-nove-mesto",
+        "text_to_speech": "Miestny úrad Nové Mesto"
+    },
+    {
+        "stop_code": "214",
+        "stop_name": "Maximiliána Hella",
+        "slug": "214-maximiliana-hella",
+        "text_to_speech": "Maximiliána Hella"
+    },
+    {
+        "stop_code": "215",
+        "stop_name": "Na pántoch",
+        "slug": "215-na-pantoch",
+        "text_to_speech": "Na pántoch"
+    },
+    {
+        "stop_code": "218",
+        "stop_name": "Mierová",
+        "slug": "218-mierova",
+        "text_to_speech": "Mierová"
+    },
+    {
+        "stop_code": "220",
+        "stop_name": "Micherov majer",
+        "slug": "220-micherov-majer",
+        "text_to_speech": "Micherov majer"
+    },
+    {
+        "stop_code": "221",
+        "stop_name": "Milana Marečka",
+        "slug": "221-milana-marecka",
+        "text_to_speech": "Milana Marečka"
+    },
+    {
+        "stop_code": "222",
+        "stop_name": "Miletičova",
+        "slug": "222-mileticova",
+        "text_to_speech": "Miletičova"
+    },
+    {
+        "stop_code": "223",
+        "stop_name": "Studená, zastávka",
+        "slug": "223-studena-zastavka",
+        "text_to_speech": "Studená, zastávka"
+    },
+    {
+        "stop_code": "224",
+        "stop_name": "Mladá garda",
+        "slug": "224-mlada-garda",
+        "text_to_speech": "Mladá garda"
+    },
+    {
+        "stop_code": "225",
+        "stop_name": "Mliekarenská",
+        "slug": "225-mliekarenska",
+        "text_to_speech": "Mliekarenská"
+    },
+    {
+        "stop_code": "226",
+        "stop_name": "Mlynarovičova",
+        "slug": "226-mlynarovicova",
+        "text_to_speech": "Mlynarovičova"
+    },
+    {
+        "stop_code": "227",
+        "stop_name": "Mlynská",
+        "slug": "227-mlynska",
+        "text_to_speech": "Mlynská"
+    },
+    {
+        "stop_code": "228",
+        "stop_name": "Malý trh",
+        "slug": "228-maly-trh",
+        "text_to_speech": "Malý trh"
+    },
+    {
+        "stop_code": "229",
+        "stop_name": "Mokrohájska",
+        "slug": "229-mokrohajska",
+        "text_to_speech": "Mokrohájska"
+    },
+    {
+        "stop_code": "230",
+        "stop_name": "Riviéra",
+        "slug": "230-riviera",
+        "text_to_speech": "Riviéra"
+    },
+    {
+        "stop_code": "231",
+        "stop_name": "Pod Dev. Kobylou",
+        "slug": "231-pod-dev-kobylou",
+        "text_to_speech": "Pod Devínskou Kobylou"
+    },
+    {
+        "stop_code": "233",
+        "stop_name": "OC Stará Vajnorská",
+        "slug": "233-oc-stara-vajnorska",
+        "text_to_speech": "Obchodné centrum Stará Vajnorská"
+    },
+    {
+        "stop_code": "234",
+        "stop_name": "Líščie nivy",
+        "slug": "234-liscie-nivy",
+        "text_to_speech": "Líščie nivy"
+    },
+    {
+        "stop_code": "235",
+        "stop_name": "Muchovo nám.",
+        "slug": "235-muchovo-nam",
+        "text_to_speech": "Muchovo námestie"
+    },
+    {
+        "stop_code": "236",
+        "stop_name": "Na Grbe",
+        "slug": "236-na-grbe",
+        "text_to_speech": "Na Grbe"
+    },
+    {
+        "stop_code": "237",
+        "stop_name": "Pri Sandbergu",
+        "slug": "237-pri-sandbergu",
+        "text_to_speech": "Pri Sandbergu"
+    },
+    {
+        "stop_code": "238",
+        "stop_name": "Na pasekách",
+        "slug": "238-na-pasekach",
+        "text_to_speech": "Na pasekách"
+    },
+    {
+        "stop_code": "240",
+        "stop_name": "Nad lúčkami",
+        "slug": "240-nad-luckami",
+        "text_to_speech": "Nad lúčkami"
+    },
+    {
+        "stop_code": "241",
+        "stop_name": "OC Lúky",
+        "slug": "241-oc-luky",
+        "text_to_speech": "Obchodné centrum Lúky"
+    },
+    {
+        "stop_code": "242",
+        "stop_name": "Vajnory, nadjazd",
+        "slug": "242-vajnory-nadjazd",
+        "text_to_speech": "Vajnory, nadjazd"
+    },
+    {
+        "stop_code": "243",
+        "stop_name": "Nákupná",
+        "slug": "243-nakupna",
+        "text_to_speech": "Nákupná"
+    },
+    {
+        "stop_code": "245",
+        "stop_name": "Nám. Biely kríž",
+        "slug": "245-nam-biely-kriz",
+        "text_to_speech": "námestie Biely kríž"
+    },
+    {
+        "stop_code": "246",
+        "stop_name": "Nám. hraničiarov",
+        "slug": "246-nam-hraniciarov",
+        "text_to_speech": "námestie hraničiarov"
+    },
+    {
+        "stop_code": "247",
+        "stop_name": "Nám. A. Hlinku",
+        "slug": "247-nam-a-hlinku",
+        "text_to_speech": "námestie Andreja Hlinku"
+    },
+    {
+        "stop_code": "248",
+        "stop_name": "Nám. Ľ. Štúra",
+        "slug": "248-nam-l-stura",
+        "text_to_speech": "Námestie Ľudovíta Štúra"
+    },
+    {
+        "stop_code": "249",
+        "stop_name": "Cyril a Metod",
+        "slug": "249-cyril-a-metod",
+        "text_to_speech": "Cyril a Metod"
+    },
+    {
+        "stop_code": "250",
+        "stop_name": "Prezident. záhrada",
+        "slug": "250-prezident-zahrada",
+        "text_to_speech": "Prezidentská záhrada"
+    },
+    {
+        "stop_code": "252",
+        "stop_name": "Nár. onkol. ústav",
+        "slug": "252-nar-onkol-ustav",
+        "text_to_speech": "Národný onkologický ústav"
+    },
+    {
+        "stop_code": "253",
+        "stop_name": "Nemocnica Antolská",
+        "slug": "253-nemocnica-antolska",
+        "text_to_speech": "Nemocnica Antolská"
+    },
+    {
+        "stop_code": "254",
+        "stop_name": "Nem. P. Biskupice",
+        "slug": "254-nem-p-biskupice",
+        "text_to_speech": "Nemocnica Podunajské Biskupice"
+    },
+    {
+        "stop_code": "255",
+        "stop_name": "Nevädzová",
+        "slug": "255-nevadzova",
+        "text_to_speech": "Nevädzová"
+    },
+    {
+        "stop_code": "256",
+        "stop_name": "Nobelova",
+        "slug": "256-nobelova",
+        "text_to_speech": "Nobelova"
+    },
+    {
+        "stop_code": "257",
+        "stop_name": "Nová doba",
+        "slug": "257-nova-doba",
+        "text_to_speech": "Nová doba"
+    },
+    {
+        "stop_code": "258",
+        "stop_name": "Novohradská",
+        "slug": "258-novohradska",
+        "text_to_speech": "Novohradská"
+    },
+    {
+        "stop_code": "259",
+        "stop_name": "Novoveská",
+        "slug": "259-novoveska",
+        "text_to_speech": "Novoveská"
+    },
+    {
+        "stop_code": "260",
+        "stop_name": "Nový kameňolom",
+        "slug": "260-novy-kamenolom",
+        "text_to_speech": "Nový kameňolom"
+    },
+    {
+        "stop_code": "261",
+        "stop_name": "Most SNP",
+        "slug": "261-most-snp",
+        "text_to_speech": "Most Slovenského národného povstania"
+    },
+    {
+        "stop_code": "262",
+        "stop_name": "Malokrasňanská",
+        "slug": "262-malokrasnanska",
+        "text_to_speech": "Malokrasňanská"
+    },
+    {
+        "stop_code": "263",
+        "stop_name": "Hodonínska",
+        "slug": "263-hodoninska",
+        "text_to_speech": "Hodonínska"
+    },
+    {
+        "stop_code": "264",
+        "stop_name": "DK Ružinov",
+        "slug": "264-dk-ruzinov",
+        "text_to_speech": "Dom kultúry Ružinov"
+    },
+    {
+        "stop_code": "265",
+        "stop_name": "Podvornice",
+        "slug": "265-podvornice",
+        "text_to_speech": "Podvornice"
+    },
+    {
+        "stop_code": "266",
+        "stop_name": "Kukučínova",
+        "slug": "266-kukucinova",
+        "text_to_speech": "Kukučínova"
+    },
+    {
+        "stop_code": "267",
+        "stop_name": "Česká",
+        "slug": "267-ceska",
+        "text_to_speech": "Česká"
+    },
+    {
+        "stop_code": "268",
+        "stop_name": "Odborárska",
+        "slug": "268-odborarska",
+        "text_to_speech": "Odborárska"
+    },
+    {
+        "stop_code": "271",
+        "stop_name": "Ondrejovova",
+        "slug": "271-ondrejovova",
+        "text_to_speech": "Ondrejovova"
+    },
+    {
+        "stop_code": "272",
+        "stop_name": "Krahulčia",
+        "slug": "272-krahulcia",
+        "text_to_speech": "Krahulčia"
+    },
+    {
+        "stop_code": "273",
+        "stop_name": "Osloboditeľská",
+        "slug": "273-osloboditelska",
+        "text_to_speech": "Osloboditeľská"
+    },
+    {
+        "stop_code": "274",
+        "stop_name": "Na pántoch, školy",
+        "slug": "274-na-pantoch-skoly",
+        "text_to_speech": "Na pántoch, školy"
+    },
+    {
+        "stop_code": "275",
+        "stop_name": "Na pántoch, stred",
+        "slug": "275-na-pantoch-stred",
+        "text_to_speech": "Na pántoch, stred"
+    },
+    {
+        "stop_code": "276",
+        "stop_name": "Ovsište",
+        "slug": "276-ovsiste",
+        "text_to_speech": "Ovsište"
+    },
+    {
+        "stop_code": "277",
+        "stop_name": "Ovsištské nám.",
+        "slug": "277-ovsistske-nam",
+        "text_to_speech": "Ovsištské námestie"
+    },
+    {
+        "stop_code": "278",
+        "stop_name": "MiÚ P. Biskupice",
+        "slug": "278-miu-p-biskupice",
+        "text_to_speech": "Miestny úrad Podunajské Biskupice"
+    },
+    {
+        "stop_code": "279",
+        "stop_name": "Žabí majer",
+        "slug": "279-zabi-majer",
+        "text_to_speech": "Žabí majer"
+    },
+    {
+        "stop_code": "280",
+        "stop_name": "Cvernovka",
+        "slug": "280-cvernovka",
+        "text_to_speech": "Cvernovka"
+    },
+    {
+        "stop_code": "281",
+        "stop_name": "Kráľovské údolie",
+        "slug": "281-kralovske-udolie",
+        "text_to_speech": "Kráľovské údolie"
+    },
+    {
+        "stop_code": "282",
+        "stop_name": "Svoradova",
+        "slug": "282-svoradova",
+        "text_to_speech": "Svoradova"
+    },
+    {
+        "stop_code": "283",
+        "stop_name": "Pastierska",
+        "slug": "283-pastierska",
+        "text_to_speech": "Pastierska"
+    },
+    {
+        "stop_code": "284",
+        "stop_name": "Patrónka",
+        "slug": "284-patronka",
+        "text_to_speech": "Patrónka"
+    },
+    {
+        "stop_code": "285",
+        "stop_name": "Pažítková",
+        "slug": "285-pazitkova",
+        "text_to_speech": "Pažítková"
+    },
+    {
+        "stop_code": "286",
+        "stop_name": "Čierny les",
+        "slug": "286-cierny-les",
+        "text_to_speech": "Čierny les"
+    },
+    {
+        "stop_code": "287",
+        "stop_name": "Pekná cesta",
+        "slug": "287-pekna-cesta",
+        "text_to_speech": "Pekná cesta"
+    },
+    {
+        "stop_code": "288",
+        "stop_name": "Pekníkova",
+        "slug": "288-peknikova",
+        "text_to_speech": "Pekníkova"
+    },
+    {
+        "stop_code": "290",
+        "stop_name": "Avion, IKEA",
+        "slug": "290-avion-ikea",
+        "text_to_speech": "Avion, IKEA"
+    },
+    {
+        "stop_code": "291",
+        "stop_name": "Petőfiho",
+        "slug": "291-petofiho",
+        "text_to_speech": "Petőfiho"
+    },
+    {
+        "stop_code": "292",
+        "stop_name": "Píla",
+        "slug": "292-pila",
+        "text_to_speech": "Píla"
+    },
+    {
+        "stop_code": "293",
+        "stop_name": "Pionierska",
+        "slug": "293-pionierska",
+        "text_to_speech": "Pionierska"
+    },
+    {
+        "stop_code": "294",
+        "stop_name": "Plynárenská",
+        "slug": "294-plynarenska",
+        "text_to_speech": "Plynárenská"
+    },
+    {
+        "stop_code": "295",
+        "stop_name": "Pod násypom",
+        "slug": "295-pod-nasypom",
+        "text_to_speech": "Pod násypom"
+    },
+    {
+        "stop_code": "296",
+        "stop_name": "Podháj",
+        "slug": "296-podhaj",
+        "text_to_speech": "Podháj"
+    },
+    {
+        "stop_code": "297",
+        "stop_name": "Podzáhradná",
+        "slug": "297-podzahradna",
+        "text_to_speech": "Podzáhradná"
+    },
+    {
+        "stop_code": "298",
+        "stop_name": "Polianky",
+        "slug": "298-polianky",
+        "text_to_speech": "Polianky"
+    },
+    {
+        "stop_code": "299",
+        "stop_name": "PD P. Biskupice",
+        "slug": "299-pd-p-biskupice",
+        "text_to_speech": "Poľnohospodárske družstvo Podunajské Biskupice"
+    },
+    {
+        "stop_code": "301",
+        "stop_name": "Kamenáče",
+        "slug": "301-kamenace",
+        "text_to_speech": "Kamenáče"
+    },
+    {
+        "stop_code": "302",
+        "stop_name": "Poštová",
+        "slug": "302-postova",
+        "text_to_speech": "Poštová"
+    },
+    {
+        "stop_code": "303",
+        "stop_name": "Povodie Dunaja",
+        "slug": "303-povodie-dunaja",
+        "text_to_speech": "Povodie Dunaja"
+    },
+    {
+        "stop_code": "304",
+        "stop_name": "Povraznícka",
+        "slug": "304-povraznicka",
+        "text_to_speech": "Povraznícka"
+    },
+    {
+        "stop_code": "305",
+        "stop_name": "Pračanská",
+        "slug": "305-pracanska",
+        "text_to_speech": "Pračanská"
+    },
+    {
+        "stop_code": "306",
+        "stop_name": "Pod stanicou",
+        "slug": "306-pod-stanicou",
+        "text_to_speech": "Pod stanicou"
+    },
+    {
+        "stop_code": "307",
+        "stop_name": "Landererova",
+        "slug": "307-landererova",
+        "text_to_speech": "Landererova"
+    },
+    {
+        "stop_code": "308",
+        "stop_name": "Nemocnica Ružinov",
+        "slug": "308-nemocnica-ruzinov",
+        "text_to_speech": "Nemocnica Ružinov"
+    },
+    {
+        "stop_code": "309",
+        "stop_name": "Pri krematóriu",
+        "slug": "309-pri-krematoriu",
+        "text_to_speech": "Pri krematóriu"
+    },
+    {
+        "stop_code": "310",
+        "stop_name": "Pri kríži",
+        "slug": "310-pri-krizi",
+        "text_to_speech": "Pri kríži"
+    },
+    {
+        "stop_code": "311",
+        "stop_name": "Pri mlyne",
+        "slug": "311-pri-mlyne",
+        "text_to_speech": "Pri mlyne"
+    },
+    {
+        "stop_code": "312",
+        "stop_name": "Pri nadjazde",
+        "slug": "312-pri-nadjazde",
+        "text_to_speech": "Pri nadjazde"
+    },
+    {
+        "stop_code": "313",
+        "stop_name": "Pri podchode",
+        "slug": "313-pri-podchode",
+        "text_to_speech": "Pri podchode"
+    },
+    {
+        "stop_code": "314",
+        "stop_name": "OC Vajnory",
+        "slug": "314-oc-vajnory",
+        "text_to_speech": "Obchodné centrum Vajnory"
+    },
+    {
+        "stop_code": "315",
+        "stop_name": "Suchý mlyn",
+        "slug": "315-suchy-mlyn",
+        "text_to_speech": "Suchý mlyn"
+    },
+    {
+        "stop_code": "316",
+        "stop_name": "Rakyta",
+        "slug": "316-rakyta",
+        "text_to_speech": "Rakyta"
+    },
+    {
+        "stop_code": "317",
+        "stop_name": "Pri záhradách",
+        "slug": "317-pri-zahradach",
+        "text_to_speech": "Pri záhradách"
+    },
+    {
+        "stop_code": "318",
+        "stop_name": "Pri zvonici",
+        "slug": "318-pri-zvonici",
+        "text_to_speech": "Pri zvonici"
+    },
+    {
+        "stop_code": "319",
+        "stop_name": "Pribylinská",
+        "slug": "319-pribylinska",
+        "text_to_speech": "Pribylinská"
+    },
+    {
+        "stop_code": "320",
+        "stop_name": "Pridánky",
+        "slug": "320-pridanky",
+        "text_to_speech": "Pridánky"
+    },
+    {
+        "stop_code": "321",
+        "stop_name": "Priekopnícka",
+        "slug": "321-priekopnicka",
+        "text_to_speech": "Priekopnícka"
+    },
+    {
+        "stop_code": "322",
+        "stop_name": "Mikulášov dvor",
+        "slug": "322-mikulasov-dvor",
+        "text_to_speech": "Mikulášov dvor"
+    },
+    {
+        "stop_code": "324",
+        "stop_name": "Prievoz, most",
+        "slug": "324-prievoz-most",
+        "text_to_speech": "Prievoz, most"
+    },
+    {
+        "stop_code": "325",
+        "stop_name": "Prievozská",
+        "slug": "325-prievozska",
+        "text_to_speech": "Prievozská"
+    },
+    {
+        "stop_code": "326",
+        "stop_name": "Nákladný prístav",
+        "slug": "326-nakladny-pristav",
+        "text_to_speech": "Nákladný prístav"
+    },
+    {
+        "stop_code": "327",
+        "stop_name": "Prístavná",
+        "slug": "327-pristavna",
+        "text_to_speech": "Prístavná"
+    },
+    {
+        "stop_code": "328",
+        "stop_name": "Prístavný most",
+        "slug": "328-pristavny-most",
+        "text_to_speech": "Prístavný most"
+    },
+    {
+        "stop_code": "329",
+        "stop_name": "Plniareň plynu",
+        "slug": "329-plniaren-plynu",
+        "text_to_speech": "Plniareň plynu"
+    },
+    {
+        "stop_code": "330",
+        "stop_name": "Prokopa Veľkého",
+        "slug": "330-prokopa-velkeho",
+        "text_to_speech": "Prokopa Veľkého"
+    },
+    {
+        "stop_code": "331",
+        "stop_name": "MiÚ Rača",
+        "slug": "331-miu-raca",
+        "text_to_speech": "Miestny úrad Rača"
+    },
+    {
+        "stop_code": "332",
+        "stop_name": "Račianske mýto",
+        "slug": "332-racianske-myto",
+        "text_to_speech": "Račianske mýto"
+    },
+    {
+        "stop_code": "333",
+        "stop_name": "Rádiová",
+        "slug": "333-radiova",
+        "text_to_speech": "Rádiová"
+    },
+    {
+        "stop_code": "334",
+        "stop_name": "Radničné nám.",
+        "slug": "334-radnicne-nam",
+        "text_to_speech": "Radničné námestie"
+    },
+    {
+        "stop_code": "335",
+        "stop_name": "Radvanská",
+        "slug": "335-radvanska",
+        "text_to_speech": "Radvanská"
+    },
+    {
+        "stop_code": "336",
+        "stop_name": "Rajská",
+        "slug": "336-rajska",
+        "text_to_speech": "Rajská"
+    },
+    {
+        "stop_code": "337",
+        "stop_name": "Riazanská",
+        "slug": "337-riazanska",
+        "text_to_speech": "Riazanská"
+    },
+    {
+        "stop_code": "338",
+        "stop_name": "Ríbezľová",
+        "slug": "338-ribezlova",
+        "text_to_speech": "Ríbezľová"
+    },
+    {
+        "stop_code": "340",
+        "stop_name": "Romanova",
+        "slug": "340-romanova",
+        "text_to_speech": "Romanova"
+    },
+    {
+        "stop_code": "341",
+        "stop_name": "Shopping Palace",
+        "slug": "341-shopping-palace",
+        "text_to_speech": "Shopping Palace"
+    },
+    {
+        "stop_code": "342",
+        "stop_name": "Gerulata",
+        "slug": "342-gerulata",
+        "text_to_speech": "Gerulata"
+    },
+    {
+        "stop_code": "343",
+        "stop_name": "Rusovská cesta",
+        "slug": "343-rusovska-cesta",
+        "text_to_speech": "Rusovská cesta"
+    },
+    {
+        "stop_code": "344",
+        "stop_name": "Súhvezdná",
+        "slug": "344-suhvezdna",
+        "text_to_speech": "Súhvezdná"
+    },
+    {
+        "stop_code": "345",
+        "stop_name": "Ružová dolina",
+        "slug": "345-ruzova-dolina",
+        "text_to_speech": "Ružová dolina"
+    },
+    {
+        "stop_code": "346",
+        "stop_name": "Drieňovské lúky",
+        "slug": "346-drienovske-luky",
+        "text_to_speech": "Drieňovské lúky"
+    },
+    {
+        "stop_code": "347",
+        "stop_name": "Sabinovská",
+        "slug": "347-sabinovska",
+        "text_to_speech": "Sabinovská"
+    },
+    {
+        "stop_code": "348",
+        "stop_name": "Sad Janka Kráľa",
+        "slug": "348-sad-janka-krala",
+        "text_to_speech": "Sad Janka Kráľa"
+    },
+    {
+        "stop_code": "349",
+        "stop_name": "Ovocná",
+        "slug": "349-ovocna",
+        "text_to_speech": "Ovocná"
+    },
+    {
+        "stop_code": "350",
+        "stop_name": "Morava",
+        "slug": "350-morava",
+        "text_to_speech": "Morava"
+    },
+    {
+        "stop_code": "350",
+        "stop_name": "Morava ",
+        "slug": "350-morava",
+        "text_to_speech": "Morava"
+    },
+    {
+        "stop_code": "352",
+        "stop_name": "Segnáre",
+        "slug": "352-segnare",
+        "text_to_speech": "Segnáre"
+    },
+    {
+        "stop_code": "353",
+        "stop_name": "Segnerova",
+        "slug": "353-segnerova",
+        "text_to_speech": "Segnerova"
+    },
+    {
+        "stop_code": "354",
+        "stop_name": "Jána Jonáša",
+        "slug": "354-jana-jonasa",
+        "text_to_speech": "Jána Jonáša"
+    },
+    {
+        "stop_code": "355",
+        "stop_name": "Sklabinská",
+        "slug": "355-sklabinska",
+        "text_to_speech": "Sklabinská"
+    },
+    {
+        "stop_code": "356",
+        "stop_name": "Podkerepušky",
+        "slug": "356-podkerepusky",
+        "text_to_speech": "Podkerepušky"
+    },
+    {
+        "stop_code": "357",
+        "stop_name": "Cintorín Slávičie",
+        "slug": "357-cintorin-slavicie",
+        "text_to_speech": "Cintorín Slávičie"
+    },
+    {
+        "stop_code": "358",
+        "stop_name": "Zoo",
+        "slug": "358-zoo",
+        "text_to_speech": "Zoo"
+    },
+    {
+        "stop_code": "359",
+        "stop_name": "Sliačska",
+        "slug": "359-sliacska",
+        "text_to_speech": "Sliačska"
+    },
+    {
+        "stop_code": "360",
+        "stop_name": "Slov. nár. archív",
+        "slug": "360-slov-nar-archiv",
+        "text_to_speech": "Slovenský národný archív"
+    },
+    {
+        "stop_code": "361",
+        "stop_name": "Slovinská",
+        "slug": "361-slovinska",
+        "text_to_speech": "Slovinská"
+    },
+    {
+        "stop_code": "362",
+        "stop_name": "Vlčie hrdlo",
+        "slug": "362-vlcie-hrdlo",
+        "text_to_speech": "Vlčie hrdlo"
+    },
+    {
+        "stop_code": "363",
+        "stop_name": "Zajačie",
+        "slug": "363-zajacie",
+        "text_to_speech": "Zajačie"
+    },
+    {
+        "stop_code": "364",
+        "stop_name": "Slovnaftská",
+        "slug": "364-slovnaftska",
+        "text_to_speech": "Slovnaftská"
+    },
+    {
+        "stop_code": "365",
+        "stop_name": "Slowackého",
+        "slug": "365-slowackeho",
+        "text_to_speech": "Slowackého"
+    },
+    {
+        "stop_code": "366",
+        "stop_name": "Malý Draždiak",
+        "slug": "366-maly-drazdiak",
+        "text_to_speech": "Malý Draždiak"
+    },
+    {
+        "stop_code": "367",
+        "stop_name": "Smolenická",
+        "slug": "367-smolenicka",
+        "text_to_speech": "Smolenická"
+    },
+    {
+        "stop_code": "368",
+        "stop_name": "Sokolská",
+        "slug": "368-sokolska",
+        "text_to_speech": "Sokolská"
+    },
+    {
+        "stop_code": "369",
+        "stop_name": "Solivarská",
+        "slug": "369-solivarska",
+        "text_to_speech": "Solivarská"
+    },
+    {
+        "stop_code": "370",
+        "stop_name": "Mláka",
+        "slug": "370-mlaka",
+        "text_to_speech": "Mláka"
+    },
+    {
+        "stop_code": "371",
+        "stop_name": "Strmé vŕšky",
+        "slug": "371-strme-vrsky",
+        "text_to_speech": "Strmé vŕšky"
+    },
+    {
+        "stop_code": "372",
+        "stop_name": "Spaľovňa",
+        "slug": "372-spalovna",
+        "text_to_speech": "Spaľovňa"
+    },
+    {
+        "stop_code": "373",
+        "stop_name": "Spoločenská",
+        "slug": "373-spolocenska",
+        "text_to_speech": "Spoločenská"
+    },
+    {
+        "stop_code": "374",
+        "stop_name": "Na križovatkách",
+        "slug": "374-na-krizovatkach",
+        "text_to_speech": "Na križovatkách"
+    },
+    {
+        "stop_code": "375",
+        "stop_name": "Staré ihrisko",
+        "slug": "375-stare-ihrisko",
+        "text_to_speech": "Staré ihrisko"
+    },
+    {
+        "stop_code": "376",
+        "stop_name": "Starohájska",
+        "slug": "376-starohajska",
+        "text_to_speech": "Starohájska"
+    },
+    {
+        "stop_code": "377",
+        "stop_name": "Starý kameňolom",
+        "slug": "377-stary-kamenolom",
+        "text_to_speech": "Starý kameňolom"
+    },
+    {
+        "stop_code": "378",
+        "stop_name": "Stavbárska",
+        "slug": "378-stavbarska",
+        "text_to_speech": "Stavbárska"
+    },
+    {
+        "stop_code": "380",
+        "stop_name": "Staviteľská",
+        "slug": "380-stavitelska",
+        "text_to_speech": "Staviteľská"
+    },
+    {
+        "stop_code": "381",
+        "stop_name": "Stavivá",
+        "slug": "381-staviva",
+        "text_to_speech": "Stavivá"
+    },
+    {
+        "stop_code": "382",
+        "stop_name": "Húščavova",
+        "slug": "382-huscavova",
+        "text_to_speech": "Húščavova"
+    },
+    {
+        "stop_code": "383",
+        "stop_name": "Stolárska",
+        "slug": "383-stolarska",
+        "text_to_speech": "Stolárska"
+    },
+    {
+        "stop_code": "384",
+        "stop_name": "Strečnianska",
+        "slug": "384-strecnianska",
+        "text_to_speech": "Strečnianska"
+    },
+    {
+        "stop_code": "385",
+        "stop_name": "Strelnica",
+        "slug": "385-strelnica",
+        "text_to_speech": "Strelnica"
+    },
+    {
+        "stop_code": "386",
+        "stop_name": "Strojnícka",
+        "slug": "386-strojnicka",
+        "text_to_speech": "Strojnícka"
+    },
+    {
+        "stop_code": "387",
+        "stop_name": "Panské",
+        "slug": "387-panske",
+        "text_to_speech": "Panské"
+    },
+    {
+        "stop_code": "388",
+        "stop_name": "Stromová",
+        "slug": "388-stromova",
+        "text_to_speech": "Stromová"
+    },
+    {
+        "stop_code": "389",
+        "stop_name": "Studenohorská",
+        "slug": "389-studenohorska",
+        "text_to_speech": "Studenohorská"
+    },
+    {
+        "stop_code": "390",
+        "stop_name": "OC Einsteinova",
+        "slug": "390-oc-einsteinova",
+        "text_to_speech": "Obchodné centrum Einsteinova"
+    },
+    {
+        "stop_code": "391",
+        "stop_name": "Súmračná",
+        "slug": "391-sumracna",
+        "text_to_speech": "Súmračná"
+    },
+    {
+        "stop_code": "392",
+        "stop_name": "NÚSCH",
+        "slug": "392-nusch",
+        "text_to_speech": "Národný ústav srdcových a cievnych chorôb"
+    },
+    {
+        "stop_code": "394",
+        "stop_name": "Šafárikovo nám.",
+        "slug": "394-safarikovo-nam",
+        "text_to_speech": "Šafárikovo námestie"
+    },
+    {
+        "stop_code": "395",
+        "stop_name": "Šafranová",
+        "slug": "395-safranova",
+        "text_to_speech": "Šafranová"
+    },
+    {
+        "stop_code": "398",
+        "stop_name": "Šikmá",
+        "slug": "398-sikma",
+        "text_to_speech": "Šikmá"
+    },
+    {
+        "stop_code": "399",
+        "stop_name": "Šintavská",
+        "slug": "399-sintavska",
+        "text_to_speech": "Šintavská"
+    },
+    {
+        "stop_code": "400",
+        "stop_name": "Šípová",
+        "slug": "400-sipova",
+        "text_to_speech": "Šípová"
+    },
+    {
+        "stop_code": "401",
+        "stop_name": "MiÚ Vrakuňa",
+        "slug": "401-miu-vrakuna",
+        "text_to_speech": "Miestny úrad Vrakuňa"
+    },
+    {
+        "stop_code": "402",
+        "stop_name": "Šoltésovej",
+        "slug": "402-soltesovej",
+        "text_to_speech": "Šoltésovej"
+    },
+    {
+        "stop_code": "403",
+        "stop_name": "Špitálska",
+        "slug": "403-spitalska",
+        "text_to_speech": "Špitálska"
+    },
+    {
+        "stop_code": "404",
+        "stop_name": "Sprinzlov majer",
+        "slug": "404-sprinzlov-majer",
+        "text_to_speech": "Sprinzlov majer"
+    },
+    {
+        "stop_code": "409",
+        "stop_name": "Gaštanová aleja",
+        "slug": "409-gastanova-aleja",
+        "text_to_speech": "Gaštanová aleja"
+    },
+    {
+        "stop_code": "410",
+        "stop_name": "Štefana Králika",
+        "slug": "410-stefana-kralika",
+        "text_to_speech": "Štefana Králika"
+    },
+    {
+        "stop_code": "412",
+        "stop_name": "Štepná",
+        "slug": "412-stepna",
+        "text_to_speech": "Štepná"
+    },
+    {
+        "stop_code": "413",
+        "stop_name": "Štrbská",
+        "slug": "413-strbska",
+        "text_to_speech": "Štrbská"
+    },
+    {
+        "stop_code": "415",
+        "stop_name": "Šulekova",
+        "slug": "415-sulekova",
+        "text_to_speech": "Šulekova"
+    },
+    {
+        "stop_code": "416",
+        "stop_name": "Šustekova",
+        "slug": "416-sustekova",
+        "text_to_speech": "Šustekova"
+    },
+    {
+        "stop_code": "417",
+        "stop_name": "Švabinského",
+        "slug": "417-svabinskeho",
+        "text_to_speech": "Švabinského"
+    },
+    {
+        "stop_code": "418",
+        "stop_name": "Švantnerova",
+        "slug": "418-svantnerova",
+        "text_to_speech": "Švantnerova"
+    },
+    {
+        "stop_code": "419",
+        "stop_name": "Tbiliská",
+        "slug": "419-tbiliska",
+        "text_to_speech": "Tbiliská"
+    },
+    {
+        "stop_code": "420",
+        "stop_name": "Tehelná",
+        "slug": "420-tehelna",
+        "text_to_speech": "Tehelná"
+    },
+    {
+        "stop_code": "422",
+        "stop_name": "STU",
+        "slug": "422-stu",
+        "text_to_speech": "Slovenská technická univerzita"
+    },
+    {
+        "stop_code": "424",
+        "stop_name": "Technické sklo",
+        "slug": "424-technicke-sklo",
+        "text_to_speech": "Technické sklo"
+    },
+    {
+        "stop_code": "425",
+        "stop_name": "Púchovská",
+        "slug": "425-puchovska",
+        "text_to_speech": "Púchovská"
+    },
+    {
+        "stop_code": "426",
+        "stop_name": "Kutlíkova",
+        "slug": "426-kutlikova",
+        "text_to_speech": "Kutlíkova"
+    },
+    {
+        "stop_code": "427",
+        "stop_name": "Televízia",
+        "slug": "427-televizia",
+        "text_to_speech": "Televízia"
+    },
+    {
+        "stop_code": "428",
+        "stop_name": "Piesčiny",
+        "slug": "428-piesciny",
+        "text_to_speech": "Piesčiny"
+    },
+    {
+        "stop_code": "429",
+        "stop_name": "Vinohradnícka",
+        "slug": "429-vinohradnicka",
+        "text_to_speech": "Vinohradnícka"
+    },
+    {
+        "stop_code": "430",
+        "stop_name": "Úrad BSK",
+        "slug": "430-urad-bsk",
+        "text_to_speech": "Bratislavská župa"
+    },
+    {
+        "stop_code": "431",
+        "stop_name": "Tománkova",
+        "slug": "431-tomankova",
+        "text_to_speech": "Tománkova"
+    },
+    {
+        "stop_code": "432",
+        "stop_name": "Tomášikova",
+        "slug": "432-tomasikova",
+        "text_to_speech": "Tomášikova"
+    },
+    {
+        "stop_code": "433",
+        "stop_name": "Topoľčianska",
+        "slug": "433-topolcianska",
+        "text_to_speech": "Topoľčianska"
+    },
+    {
+        "stop_code": "434",
+        "stop_name": "Toryská",
+        "slug": "434-toryska",
+        "text_to_speech": "Toryská"
+    },
+    {
+        "stop_code": "435",
+        "stop_name": "Trávna",
+        "slug": "435-travna",
+        "text_to_speech": "Trávna"
+    },
+    {
+        "stop_code": "436",
+        "stop_name": "Trenčianska",
+        "slug": "436-trencianska",
+        "text_to_speech": "Trenčianska"
+    },
+    {
+        "stop_code": "437",
+        "stop_name": "Trnavské mýto",
+        "slug": "437-trnavske-myto",
+        "text_to_speech": "Trnavské mýto"
+    },
+    {
+        "stop_code": "438",
+        "stop_name": "Trojdomy",
+        "slug": "438-trojdomy",
+        "text_to_speech": "Trojdomy"
+    },
+    {
+        "stop_code": "439",
+        "stop_name": "Chatam Sófer",
+        "slug": "439-chatam-sofer",
+        "text_to_speech": "Chatam Sófer"
+    },
+    {
+        "stop_code": "440",
+        "stop_name": "Tupého",
+        "slug": "440-tupeho",
+        "text_to_speech": "Tupého"
+    },
+    {
+        "stop_code": "441",
+        "stop_name": "Bratislavská",
+        "slug": "441-bratislavska",
+        "text_to_speech": "Bratislavská"
+    },
+    {
+        "stop_code": "442",
+        "stop_name": "Učiteľská",
+        "slug": "442-ucitelska",
+        "text_to_speech": "Učiteľská"
+    },
+    {
+        "stop_code": "443",
+        "stop_name": "Uhliská",
+        "slug": "443-uhliska",
+        "text_to_speech": "Uhliská"
+    },
+    {
+        "stop_code": "444",
+        "stop_name": "29. augusta",
+        "slug": "444-29-augusta",
+        "text_to_speech": "29. augusta"
+    },
+    {
+        "stop_code": "445",
+        "stop_name": "8. mája",
+        "slug": "445-8-maja",
+        "text_to_speech": "8. mája"
+    },
+    {
+        "stop_code": "446",
+        "stop_name": "Ursínyho",
+        "slug": "446-ursinyho",
+        "text_to_speech": "Ursínyho"
+    },
+    {
+        "stop_code": "447",
+        "stop_name": "Pod gaštanmi",
+        "slug": "447-pod-gastanmi",
+        "text_to_speech": "Pod gaštanmi"
+    },
+    {
+        "stop_code": "449",
+        "stop_name": "Roľnícka",
+        "slug": "449-rolnicka",
+        "text_to_speech": "Roľnícka"
+    },
+    {
+        "stop_code": "450",
+        "stop_name": "MiÚ Vajnory",
+        "slug": "450-miu-vajnory",
+        "text_to_speech": "Miestny úrad Vajnory"
+    },
+    {
+        "stop_code": "451",
+        "stop_name": "Vajnory",
+        "slug": "451-vajnory",
+        "text_to_speech": "Vajnory"
+    },
+    {
+        "stop_code": "452",
+        "stop_name": "Valašská",
+        "slug": "452-valasska",
+        "text_to_speech": "Valašská"
+    },
+    {
+        "stop_code": "453",
+        "stop_name": "Vápenka",
+        "slug": "453-vapenka",
+        "text_to_speech": "Vápenka"
+    },
+    {
+        "stop_code": "456",
+        "stop_name": "Studená",
+        "slug": "456-studena",
+        "text_to_speech": "Studená"
+    },
+    {
+        "stop_code": "457",
+        "stop_name": "Zálužická",
+        "slug": "457-zaluzicka",
+        "text_to_speech": "Zálužická"
+    },
+    {
+        "stop_code": "458",
+        "stop_name": "Kubačova, NKD",
+        "slug": "458-kubacova-nkd",
+        "text_to_speech": "Kubačova, Vinárske závody"
+    },
+    {
+        "stop_code": "459",
+        "stop_name": "Vlárska",
+        "slug": "459-vlarska",
+        "text_to_speech": "Vlárska"
+    },
+    {
+        "stop_code": "460",
+        "stop_name": "Sihoť",
+        "slug": "460-sihot",
+        "text_to_speech": "Sihoť"
+    },
+    {
+        "stop_code": "462",
+        "stop_name": "Červený most",
+        "slug": "462-cerveny-most",
+        "text_to_speech": "Červený most"
+    },
+    {
+        "stop_code": "463",
+        "stop_name": "Regrútska",
+        "slug": "463-regrutska",
+        "text_to_speech": "Regrútska"
+    },
+    {
+        "stop_code": "464",
+        "stop_name": "Depo Jurajov dvor",
+        "slug": "464-depo-jurajov-dvor",
+        "text_to_speech": "Depo Jurajov dvor"
+    },
+    {
+        "stop_code": "465",
+        "stop_name": "Depo Krasňany",
+        "slug": "465-depo-krasnany",
+        "text_to_speech": "Depo Krasňany"
+    },
+    {
+        "stop_code": "466",
+        "stop_name": "Depo Trnávka",
+        "slug": "466-depo-trnavka",
+        "text_to_speech": "Depo Trnávka"
+    },
+    {
+        "stop_code": "467",
+        "stop_name": "Podpriehradná",
+        "slug": "467-podpriehradna",
+        "text_to_speech": "Podpriehradná"
+    },
+    {
+        "stop_code": "469",
+        "stop_name": "Vrančovičova",
+        "slug": "469-vrancovicova",
+        "text_to_speech": "Vrančovičova"
+    },
+    {
+        "stop_code": "471",
+        "stop_name": "Jána Jonáša, VW1",
+        "slug": "471-jana-jonasa-vw1",
+        "text_to_speech": "Jána Jonáša, Volkswagen"
+    },
+    {
+        "stop_code": "472",
+        "stop_name": "Východné",
+        "slug": "472-vychodne",
+        "text_to_speech": "Východné"
+    },
+    {
+        "stop_code": "473",
+        "stop_name": "Vysoká",
+        "slug": "473-vysoka",
+        "text_to_speech": "Vysoká"
+    },
+    {
+        "stop_code": "475",
+        "stop_name": "Vyšehradská",
+        "slug": "475-vysehradska",
+        "text_to_speech": "Vyšehradská"
+    },
+    {
+        "stop_code": "476",
+        "stop_name": "Vývojová",
+        "slug": "476-vyvojova",
+        "text_to_speech": "Vývojová"
+    },
+    {
+        "stop_code": "477",
+        "stop_name": "Dolné koruny",
+        "slug": "477-dolne-koruny",
+        "text_to_speech": "Dolné koruny"
+    },
+    {
+        "stop_code": "479",
+        "stop_name": "Záhorská",
+        "slug": "479-zahorska",
+        "text_to_speech": "Záhorská"
+    },
+    {
+        "stop_code": "481",
+        "stop_name": "Záhorská Bystrica",
+        "slug": "481-zahorska-bystrica",
+        "text_to_speech": "Záhorská Bystrica"
+    },
+    {
+        "stop_code": "482",
+        "stop_name": "Saleziáni",
+        "slug": "482-saleziani",
+        "text_to_speech": "Saleziáni"
+    },
+    {
+        "stop_code": "483",
+        "stop_name": "Pri letisku",
+        "slug": "483-pri-letisku",
+        "text_to_speech": "Pri letisku"
+    },
+    {
+        "stop_code": "484",
+        "stop_name": "Záhumenice",
+        "slug": "484-zahumenice",
+        "text_to_speech": "Záhumenice"
+    },
+    {
+        "stop_code": "485",
+        "stop_name": "Stn. Lamač",
+        "slug": "485-stn-lamac",
+        "text_to_speech": "Stanica Lamač"
+    },
+    {
+        "stop_code": "486",
+        "stop_name": "Zámocká",
+        "slug": "486-zamocka",
+        "text_to_speech": "Zámocká"
+    },
+    {
+        "stop_code": "487",
+        "stop_name": "Záporožská",
+        "slug": "487-zaporozska",
+        "text_to_speech": "Záporožská"
+    },
+    {
+        "stop_code": "488",
+        "stop_name": "Kuchajda",
+        "slug": "488-kuchajda",
+        "text_to_speech": "Kuchajda"
+    },
+    {
+        "stop_code": "489",
+        "stop_name": "Závadská",
+        "slug": "489-zavadska",
+        "text_to_speech": "Závadská"
+    },
+    {
+        "stop_code": "490",
+        "stop_name": "Kopčianska, stred",
+        "slug": "490-kopcianska-stred",
+        "text_to_speech": "Kopčianska, stred"
+    },
+    {
+        "stop_code": "491",
+        "stop_name": "Trnavská cesta",
+        "slug": "491-trnavska-cesta",
+        "text_to_speech": "Trnavská cesta"
+    },
+    {
+        "stop_code": "492",
+        "stop_name": "Kaštieľ Rusovce",
+        "slug": "492-kastiel-rusovce",
+        "text_to_speech": "Kaštieľ Rusovce"
+    },
+    {
+        "stop_code": "493",
+        "stop_name": "Pri Šajbách",
+        "slug": "493-pri-sajbach",
+        "text_to_speech": "Pri Šajbách"
+    },
+    {
+        "stop_code": "494",
+        "stop_name": "Dvojstudňové polia",
+        "slug": "494-dvojstudnove-polia",
+        "text_to_speech": "Dvojstudňové polia"
+    },
+    {
+        "stop_code": "495",
+        "stop_name": "TIPOS Aréna",
+        "slug": "495-tipos-arena",
+        "text_to_speech": "TIPOS Aréna"
+    },
+    {
+        "stop_code": "496",
+        "stop_name": "Stará Vajnorská",
+        "slug": "496-stara-vajnorska",
+        "text_to_speech": "Stará Vajnorská"
+    },
+    {
+        "stop_code": "497",
+        "stop_name": "Zlaté piesky",
+        "slug": "497-zlate-piesky",
+        "text_to_speech": "Zlaté piesky"
+    },
+    {
+        "stop_code": "498",
+        "stop_name": "Zlaté schody",
+        "slug": "498-zlate-schody",
+        "text_to_speech": "Zlaté schody"
+    },
+    {
+        "stop_code": "499",
+        "stop_name": "Znievska",
+        "slug": "499-znievska",
+        "text_to_speech": "Znievska"
+    },
+    {
+        "stop_code": "500",
+        "stop_name": "Zochova",
+        "slug": "500-zochova",
+        "text_to_speech": "Zochova"
+    },
+    {
+        "stop_code": "501",
+        "stop_name": "Habánsky mlyn",
+        "slug": "501-habansky-mlyn",
+        "text_to_speech": "Habánsky mlyn"
+    },
+    {
+        "stop_code": "502",
+        "stop_name": "ZŠ Budatínska",
+        "slug": "502-zs-budatinska",
+        "text_to_speech": "ZŠ Budatínska"
+    },
+    {
+        "stop_code": "503",
+        "stop_name": "ZŠ Majerníkova",
+        "slug": "503-zs-majernikova",
+        "text_to_speech": "ZŠ Majerníkova"
+    },
+    {
+        "stop_code": "504",
+        "stop_name": "Zvončeková",
+        "slug": "504-zvoncekova",
+        "text_to_speech": "Zvončeková"
+    },
+    {
+        "stop_code": "505",
+        "stop_name": "Žatevná",
+        "slug": "505-zatevna",
+        "text_to_speech": "Žatevná"
+    },
+    {
+        "stop_code": "506",
+        "stop_name": "Žehrianska",
+        "slug": "506-zehrianska",
+        "text_to_speech": "Žehrianska"
+    },
+    {
+        "stop_code": "507",
+        "stop_name": "Železná studnička",
+        "slug": "507-zelezna-studnicka",
+        "text_to_speech": "Železná studnička"
+    },
+    {
+        "stop_code": "508",
+        "stop_name": "Železničná",
+        "slug": "508-zeleznicna",
+        "text_to_speech": "Železničná"
+    },
+    {
+        "stop_code": "510",
+        "stop_name": "Staré letisko",
+        "slug": "510-stare-letisko",
+        "text_to_speech": "Staré letisko"
+    },
+    {
+        "stop_code": "512",
+        "stop_name": "Žitavská",
+        "slug": "512-zitavska",
+        "text_to_speech": "Žitavská"
+    },
+    {
+        "stop_code": "513",
+        "stop_name": "Stn. Dev. Nová Ves",
+        "slug": "513-stn-dev-nova-ves",
+        "text_to_speech": "Stanica Devínska Nová Ves"
+    },
+    {
+        "stop_code": "514",
+        "stop_name": "Skerličova",
+        "slug": "514-skerlicova",
+        "text_to_speech": "Skerličova"
+    },
+    {
+        "stop_code": "515",
+        "stop_name": "Stn. Nové Mesto",
+        "slug": "515-stn-nove-mesto",
+        "text_to_speech": "Stanica Nové Mesto"
+    },
+    {
+        "stop_code": "516",
+        "stop_name": "Stn. P. Biskupice",
+        "slug": "516-stn-p-biskupice",
+        "text_to_speech": "Stanica Podunajské Biskupice"
+    },
+    {
+        "stop_code": "517",
+        "stop_name": "Stn. Petržalka",
+        "slug": "517-stn-petrzalka",
+        "text_to_speech": "Stanica Petržalka"
+    },
+    {
+        "stop_code": "518",
+        "stop_name": "Stn. Rusovce",
+        "slug": "518-stn-rusovce",
+        "text_to_speech": "Stanica Rusovce"
+    },
+    {
+        "stop_code": "519",
+        "stop_name": "Stn. ÚNS",
+        "slug": "519-stn-uns",
+        "text_to_speech": "Ústredná nákladná stanica"
+    },
+    {
+        "stop_code": "521",
+        "stop_name": "Stn. Vajnory",
+        "slug": "521-stn-vajnory",
+        "text_to_speech": "Stanica Vajnory"
+    },
+    {
+        "stop_code": "522",
+        "stop_name": "Stn. Vinohrady",
+        "slug": "522-stn-vinohrady",
+        "text_to_speech": "Stanica Vinohrady"
+    },
+    {
+        "stop_code": "523",
+        "stop_name": "Antolská",
+        "slug": "523-antolska",
+        "text_to_speech": "Antolská"
+    },
+    {
+        "stop_code": "524",
+        "stop_name": "Potočná",
+        "slug": "524-potocna",
+        "text_to_speech": "Potočná"
+    },
+    {
+        "stop_code": "525",
+        "stop_name": "Syslia",
+        "slug": "525-syslia",
+        "text_to_speech": "Syslia"
+    },
+    {
+        "stop_code": "527",
+        "stop_name": "Prokofievova",
+        "slug": "527-prokofievova",
+        "text_to_speech": "Prokofievova"
+    },
+    {
+        "stop_code": "528",
+        "stop_name": "Kopčany, sídlisko",
+        "slug": "528-kopcany-sidlisko",
+        "text_to_speech": "Kopčany, sídlisko"
+    },
+    {
+        "stop_code": "531",
+        "stop_name": "Vápencová",
+        "slug": "531-vapencova",
+        "text_to_speech": "Vápencová"
+    },
+    {
+        "stop_code": "538",
+        "stop_name": "Dunajská",
+        "slug": "538-dunajska",
+        "text_to_speech": "Dunajská"
+    },
+    {
+        "stop_code": "553",
+        "stop_name": "Avion Shop. Park",
+        "slug": "553-avion-shop-park",
+        "text_to_speech": "Avion Shopping Park"
+    },
+    {
+        "stop_code": "554",
+        "stop_name": "Paulinské",
+        "slug": "554-paulinske",
+        "text_to_speech": "Paulinské"
+    },
+    {
+        "stop_code": "558",
+        "stop_name": "Danubiana",
+        "slug": "558-danubiana",
+        "text_to_speech": "Danubiana"
+    },
+    {
+        "stop_code": "559",
+        "stop_name": "VE Čunovo",
+        "slug": "559-ve-cunovo",
+        "text_to_speech": "Vodná energia Čunovo"
+    },
+    {
+        "stop_code": "560",
+        "stop_name": "Súbežná",
+        "slug": "560-subezna",
+        "text_to_speech": "Súbežná"
+    },
+    {
+        "stop_code": "561",
+        "stop_name": "Prvosienková",
+        "slug": "561-prvosienkova",
+        "text_to_speech": "Prvosienková"
+    },
+    {
+        "stop_code": "562",
+        "stop_name": "Stará vinárska",
+        "slug": "562-stara-vinarska",
+        "text_to_speech": "Stará vinárska"
+    },
+    {
+        "stop_code": "563",
+        "stop_name": "Slavín",
+        "slug": "563-slavin",
+        "text_to_speech": "Slavín"
+    },
+    {
+        "stop_code": "564",
+        "stop_name": "Havlíčkova",
+        "slug": "564-havlickova",
+        "text_to_speech": "Havlíčkova"
+    },
+    {
+        "stop_code": "565",
+        "stop_name": "Mišíkova",
+        "slug": "565-misikova",
+        "text_to_speech": "Mišíkova"
+    },
+    {
+        "stop_code": "566",
+        "stop_name": "Donovalova",
+        "slug": "566-donovalova",
+        "text_to_speech": "Donovalova"
+    },
+    {
+        "stop_code": "567",
+        "stop_name": "Čunovo, priehrada",
+        "slug": "567-cunovo-priehrada",
+        "text_to_speech": "Čunovo, priehrada"
+    },
+    {
+        "stop_code": "568",
+        "stop_name": "Areál vod. športov",
+        "slug": "568-areal-vod-sportov",
+        "text_to_speech": "Areál vodných športov"
+    },
+    {
+        "stop_code": "572",
+        "stop_name": "Volkswagen, VW2",
+        "slug": "572-volkswagen-vw2",
+        "text_to_speech": "Volkswagen"
+    },
+    {
+        "stop_code": "574",
+        "stop_name": "Tesco Lamač",
+        "slug": "574-tesco-lamac",
+        "text_to_speech": "Tesco Lamač"
+    },
+    {
+        "stop_code": "579",
+        "stop_name": "Cintorín Petržalka",
+        "slug": "579-cintorin-petrzalka",
+        "text_to_speech": "Cintorín Petržalka"
+    },
+    {
+        "stop_code": "581",
+        "stop_name": "Most Apollo",
+        "slug": "581-most-apollo",
+        "text_to_speech": "Most Apollo"
+    },
+    {
+        "stop_code": "582",
+        "stop_name": "Trhovisko",
+        "slug": "582-trhovisko",
+        "text_to_speech": "Trhovisko"
+    },
+    {
+        "stop_code": "584",
+        "stop_name": "Kalvária",
+        "slug": "584-kalvaria",
+        "text_to_speech": "Kalvária"
+    },
+    {
+        "stop_code": "585",
+        "stop_name": "Na Revíne",
+        "slug": "585-na-revine",
+        "text_to_speech": "Na Revíne"
+    },
+    {
+        "stop_code": "586",
+        "stop_name": "Júnová",
+        "slug": "586-junova",
+        "text_to_speech": "Júnová"
+    },
+    {
+        "stop_code": "587",
+        "stop_name": "Cesta na Kamzík",
+        "slug": "587-cesta-na-kamzik",
+        "text_to_speech": "Cesta na Kamzík"
+    },
+    {
+        "stop_code": "588",
+        "stop_name": "Jaskový rad",
+        "slug": "588-jaskovy-rad",
+        "text_to_speech": "Jaskový rad"
+    },
+    {
+        "stop_code": "589",
+        "stop_name": "Matúškova",
+        "slug": "589-matuskova",
+        "text_to_speech": "Matúškova"
+    },
+    {
+        "stop_code": "590",
+        "stop_name": "Žabotova",
+        "slug": "590-zabotova",
+        "text_to_speech": "Žabotova"
+    },
+    {
+        "stop_code": "591",
+        "stop_name": "Rozvodná",
+        "slug": "591-rozvodna",
+        "text_to_speech": "Rozvodná"
+    },
+    {
+        "stop_code": "592",
+        "stop_name": "Briežky",
+        "slug": "592-briezky",
+        "text_to_speech": "Briežky"
+    },
+    {
+        "stop_code": "594",
+        "stop_name": "Guothova",
+        "slug": "594-guothova",
+        "text_to_speech": "Guothova"
+    },
+    {
+        "stop_code": "596",
+        "stop_name": "Vajnorský potok",
+        "slug": "596-vajnorsky-potok",
+        "text_to_speech": "Vajnorský potok"
+    },
+    {
+        "stop_code": "603",
+        "stop_name": "Tuhovská",
+        "slug": "603-tuhovska",
+        "text_to_speech": "Tuhovská"
+    },
+    {
+        "stop_code": "604",
+        "stop_name": "Pieskový hon",
+        "slug": "604-pieskovy-hon",
+        "text_to_speech": "Pieskový hon"
+    },
+    {
+        "stop_code": "605",
+        "stop_name": "Ševčenkova",
+        "slug": "605-sevcenkova",
+        "text_to_speech": "Ševčenkova"
+    },
+    {
+        "stop_code": "606",
+        "stop_name": "MiÚ Záh. Bystrica",
+        "slug": "606-miu-zah-bystrica",
+        "text_to_speech": "Miestny úrad Záhorská Bystrica"
+    },
+    {
+        "stop_code": "607",
+        "stop_name": "Nové SND",
+        "slug": "607-nove-snd",
+        "text_to_speech": "Nové SND"
+    },
+    {
+        "stop_code": "608",
+        "stop_name": "Bubnovka",
+        "slug": "608-bubnovka",
+        "text_to_speech": "Bubnovka"
+    },
+    {
+        "stop_code": "609",
+        "stop_name": "V. hrdlo, záhrady",
+        "slug": "609-v-hrdlo-zahrady",
+        "text_to_speech": "Vlčie hrdlo, záhrady"
+    },
+    {
+        "stop_code": "616",
+        "stop_name": "Vajnorská",
+        "slug": "616-vajnorska",
+        "text_to_speech": "Vajnorská"
+    },
+    {
+        "stop_code": "617",
+        "stop_name": "Dargovská",
+        "slug": "617-dargovska",
+        "text_to_speech": "Dargovská"
+    },
+    {
+        "stop_code": "618",
+        "stop_name": "Na hrebienku",
+        "slug": "618-na-hrebienku",
+        "text_to_speech": "Na hrebienku"
+    },
+    {
+        "stop_code": "619",
+        "stop_name": "Gercenova",
+        "slug": "619-gercenova",
+        "text_to_speech": "Gercenova"
+    },
+    {
+        "stop_code": "625",
+        "stop_name": "Pod Kráľovou horou",
+        "slug": "625-pod-kralovou-horou",
+        "text_to_speech": "Pod Kráľovou horou"
+    },
+    {
+        "stop_code": "626",
+        "stop_name": "Kuklovská",
+        "slug": "626-kuklovska",
+        "text_to_speech": "Kuklovská"
+    },
+    {
+        "stop_code": "627",
+        "stop_name": "Sološnická",
+        "slug": "627-solosnicka",
+        "text_to_speech": "Sološnická"
+    },
+    {
+        "stop_code": "628",
+        "stop_name": "Šaštínska",
+        "slug": "628-sastinska",
+        "text_to_speech": "Šaštínska"
+    },
+    {
+        "stop_code": "631",
+        "stop_name": "Betliarska",
+        "slug": "631-betliarska",
+        "text_to_speech": "Betliarska"
+    },
+    {
+        "stop_code": "632",
+        "stop_name": "Kalné jazero",
+        "slug": "632-kalne-jazero",
+        "text_to_speech": "Kalné jazero"
+    },
+    {
+        "stop_code": "633",
+        "stop_name": "Spádovisko I",
+        "slug": "633-spadovisko-i",
+        "text_to_speech": "Spádovisko 1"
+    },
+    {
+        "stop_code": "634",
+        "stop_name": "Spádovisko II",
+        "slug": "634-spadovisko-ii",
+        "text_to_speech": "Spádovisko 2"
+    },
+    {
+        "stop_code": "635",
+        "stop_name": "Zamajerské",
+        "slug": "635-zamajerske",
+        "text_to_speech": "Zamajerské"
+    },
+    {
+        "stop_code": "641",
+        "stop_name": "Kamzík",
+        "slug": "641-kamzik",
+        "text_to_speech": "Kamzík"
+    },
+    {
+        "stop_code": "646",
+        "stop_name": "Čunovo, záhrady",
+        "slug": "646-cunovo-zahrady",
+        "text_to_speech": "Čunovo, záhrady"
+    },
+    {
+        "stop_code": "647",
+        "stop_name": "Júlová",
+        "slug": "647-julova",
+        "text_to_speech": "Júlová"
+    },
+    {
+        "stop_code": "648",
+        "stop_name": "Slanec",
+        "slug": "648-slanec",
+        "text_to_speech": "Slanec"
+    },
+    {
+        "stop_code": "656",
+        "stop_name": "Hájnická",
+        "slug": "656-hajnicka",
+        "text_to_speech": "Hájnická"
+    },
+    {
+        "stop_code": "657",
+        "stop_name": "Vretenová",
+        "slug": "657-vretenova",
+        "text_to_speech": "Vretenová"
+    },
+    {
+        "stop_code": "658",
+        "stop_name": "Na Sitine",
+        "slug": "658-na-sitine",
+        "text_to_speech": "Na Sitine"
+    },
+    {
+        "stop_code": "659",
+        "stop_name": "Bedľová",
+        "slug": "659-bedlova",
+        "text_to_speech": "Bedľová"
+    },
+    {
+        "stop_code": "660",
+        "stop_name": "Panoráma",
+        "slug": "660-panorama",
+        "text_to_speech": "Panoráma"
+    },
+    {
+        "stop_code": "661",
+        "stop_name": "Tôňava",
+        "slug": "661-tonava",
+        "text_to_speech": "Tôňava"
+    },
+    {
+        "stop_code": "662",
+        "stop_name": "Rudolfa Mocka",
+        "slug": "662-rudolfa-mocka",
+        "text_to_speech": "Rudolfa Mocka"
+    },
+    {
+        "stop_code": "664",
+        "stop_name": "Nad vinicami",
+        "slug": "664-nad-vinicami",
+        "text_to_speech": "Nad vinicami"
+    },
+    {
+        "stop_code": "665",
+        "stop_name": "Karpatské nám.",
+        "slug": "665-karpatske-nam",
+        "text_to_speech": "Karpatské námestie"
+    },
+    {
+        "stop_code": "667",
+        "stop_name": "Kačín",
+        "slug": "667-kacin",
+        "text_to_speech": "Kačín"
+    },
+    {
+        "stop_code": "668",
+        "stop_name": "Kačínska dolina",
+        "slug": "668-kacinska-dolina",
+        "text_to_speech": "Kačínska dolina"
+    },
+    {
+        "stop_code": "670",
+        "stop_name": "Veľkolúcky potok",
+        "slug": "670-velkolucky-potok",
+        "text_to_speech": "Veľkolúcky potok"
+    },
+    {
+        "stop_code": "671",
+        "stop_name": "Schengenská",
+        "slug": "671-schengenska",
+        "text_to_speech": "Schengenská"
+    },
+    {
+        "stop_code": "689",
+        "stop_name": "Suché mýto",
+        "slug": "689-suche-myto",
+        "text_to_speech": "Suché mýto"
+    },
+    {
+        "stop_code": "691",
+        "stop_name": "Žltá",
+        "slug": "691-zlta",
+        "text_to_speech": "Žltá"
+    },
+    {
+        "stop_code": "693",
+        "stop_name": "Partizánska lúka",
+        "slug": "693-partizanska-luka",
+        "text_to_speech": "Partizánska lúka"
+    },
+    {
+        "stop_code": "694",
+        "stop_name": "T. P. Kolakoviča",
+        "slug": "694-t-p-kolakovica",
+        "text_to_speech": "Hornbach Devínska Nová Ves"
+    },
+    {
+        "stop_code": "696",
+        "stop_name": "OC Slovnaftská",
+        "slug": "696-oc-slovnaftska",
+        "text_to_speech": "Obchodné centrum Slovnaftská"
+    },
+    {
+        "stop_code": "700",
+        "stop_name": "OC Bory",
+        "slug": "700-oc-bory",
+        "text_to_speech": "Obchodné centrum Bory"
+    },
+    {
+        "stop_code": "701",
+        "stop_name": "Rudavská",
+        "slug": "701-rudavska",
+        "text_to_speech": "Rudavská"
+    },
+    {
+        "stop_code": "702",
+        "stop_name": "Bystrické sady",
+        "slug": "702-bystricke-sady",
+        "text_to_speech": "Bystrické sady"
+    },
+    {
+        "stop_code": "703",
+        "stop_name": "Stachanovská",
+        "slug": "703-stachanovska",
+        "text_to_speech": "Stachanovská"
+    },
+    {
+        "stop_code": "704",
+        "stop_name": "Grófska niva",
+        "slug": "704-grofska-niva",
+        "text_to_speech": "Grófska niva"
+    },
+    {
+        "stop_code": "705",
+        "stop_name": "Pharos",
+        "slug": "705-pharos",
+        "text_to_speech": "Pharos"
+    },
+    {
+        "stop_code": "708",
+        "stop_name": "MVE Mošoň",
+        "slug": "708-mve-moson",
+        "text_to_speech": "Malá vodná elektráreň Mošoň"
+    },
+    {
+        "stop_code": "709",
+        "stop_name": "Rostovská",
+        "slug": "709-rostovska",
+        "text_to_speech": "Rostovská"
+    },
+    {
+        "stop_code": "710",
+        "stop_name": "Opletalova, VW5",
+        "slug": "710-opletalova-vw5",
+        "text_to_speech": "Opletalova"
+    },
+    {
+        "stop_code": "713",
+        "stop_name": "Detvianska",
+        "slug": "713-detvianska",
+        "text_to_speech": "Detvianska"
+    },
+    {
+        "stop_code": "714",
+        "stop_name": "Úrad vlády SR",
+        "slug": "714-urad-vlady-sr",
+        "text_to_speech": "Úrad vlády Slovenskej republiky"
+    },
+    {
+        "stop_code": "715",
+        "stop_name": "OC Rača",
+        "slug": "715-oc-raca",
+        "text_to_speech": "Obchodné centrum Rača"
+    },
+    {
+        "stop_code": "719",
+        "stop_name": "Koliba P+R",
+        "slug": "719-koliba-pr",
+        "text_to_speech": "Koliba P+R"
+    },
+    {
+        "stop_code": "720",
+        "stop_name": "Hrachová",
+        "slug": "720-hrachova",
+        "text_to_speech": "Hrachová"
+    },
+    {
+        "stop_code": "721",
+        "stop_name": "Kúpalisko Lamač",
+        "slug": "721-kupalisko-lamac",
+        "text_to_speech": "Kúpalisko Lamač"
+    },
+    {
+        "stop_code": "723",
+        "stop_name": "Hrubé lúky",
+        "slug": "723-hrube-luky",
+        "text_to_speech": "Hrubé lúky"
+    },
+    {
+        "stop_code": "724",
+        "stop_name": "Muštová",
+        "slug": "724-mustova",
+        "text_to_speech": "Muštová"
+    },
+    {
+        "stop_code": "725",
+        "stop_name": "Krížové polia",
+        "slug": "725-krizove-polia",
+        "text_to_speech": "Krížové polia"
+    },
+    {
+        "stop_code": "726",
+        "stop_name": "Letisko, cargo",
+        "slug": "726-letisko-cargo",
+        "text_to_speech": "Letisko, cargo"
+    },
+    {
+        "stop_code": "727",
+        "stop_name": "Letové služby",
+        "slug": "727-letove-sluzby",
+        "text_to_speech": "Letové služby"
+    },
+    {
+        "stop_code": "728",
+        "stop_name": "Galvaniho",
+        "slug": "728-galvaniho",
+        "text_to_speech": "Galvaniho"
+    },
+    {
+        "stop_code": "731",
+        "stop_name": "Konopiská",
+        "slug": "731-konopiska",
+        "text_to_speech": "Konopiská"
+    },
+    {
+        "stop_code": "732",
+        "stop_name": "Muničné sklady",
+        "slug": "732-municne-sklady",
+        "text_to_speech": "Muničné sklady"
+    },
+    {
+        "stop_code": "733",
+        "stop_name": "Horáreň Krasňany",
+        "slug": "733-horaren-krasnany",
+        "text_to_speech": "Horáreň Krasňany"
+    },
+    {
+        "stop_code": "734",
+        "stop_name": "Kulháň",
+        "slug": "734-kulhan",
+        "text_to_speech": "Kulháň"
+    },
+    {
+        "stop_code": "736",
+        "stop_name": "Bodvianska",
+        "slug": "736-bodvianska",
+        "text_to_speech": "Bodvianska"
+    },
+    {
+        "stop_code": "739",
+        "stop_name": "Za Mokráňom",
+        "slug": "739-za-mokranom",
+        "text_to_speech": "Za Mokráňom"
+    },
+    {
+        "stop_code": "740",
+        "stop_name": "Nám. slobody",
+        "slug": "740-nam-slobody",
+        "text_to_speech": "námestie slobody"
+    },
+    {
+        "stop_code": "743",
+        "stop_name": "Pod vŕškami",
+        "slug": "743-pod-vrskami",
+        "text_to_speech": "Pod vŕškami"
+    },
+    {
+        "stop_code": "746",
+        "stop_name": "Drozdová",
+        "slug": "746-drozdova",
+        "text_to_speech": "Drozdová"
+    },
+    {
+        "stop_code": "747",
+        "stop_name": "Fafruny",
+        "slug": "747-fafruny",
+        "text_to_speech": "Fafruny"
+    },
+    {
+        "stop_code": "748",
+        "stop_name": "Alejová",
+        "slug": "748-alejova",
+        "text_to_speech": "Alejová"
+    },
+    {
+        "stop_code": "749",
+        "stop_name": "Kopčianska",
+        "slug": "749-kopcianska",
+        "text_to_speech": "Kopčianska"
+    },
+    {
+        "stop_code": "750",
+        "stop_name": "Nesto",
+        "slug": "750-nesto",
+        "text_to_speech": "Nesto"
+    },
+    {
+        "stop_code": "751",
+        "stop_name": "Gorazdova",
+        "slug": "751-gorazdova",
+        "text_to_speech": "Gorazdova"
+    },
+    {
+        "stop_code": "752",
+        "stop_name": "Nemocnica Bory",
+        "slug": "752-nemocnica-bory",
+        "text_to_speech": "Nemocnica Bory"
+    },
+    {
+        "stop_code": "753",
+        "stop_name": "Vladimíra Jukla",
+        "slug": "753-vladimira-jukla",
+        "text_to_speech": "Vladimíra Jukla"
+    },
+    {
+        "stop_code": "757",
+        "stop_name": "Farmárska",
+        "slug": "757-farmarska",
+        "text_to_speech": "Farmárska"
+    },
+    {
+        "stop_code": "758",
+        "stop_name": "Ligurčeková",
+        "slug": "758-ligurcekova",
+        "text_to_speech": "Ligurčeková"
+    },
+    {
+        "stop_code": "759",
+        "stop_name": "Ovčiarska",
+        "slug": "759-ovciarska",
+        "text_to_speech": "Ovčiarska"
+    },
+    {
+        "stop_code": "761",
+        "stop_name": "Pri sade",
+        "slug": "761-pri-sade",
+        "text_to_speech": "Pri sade"
+    }
+]
