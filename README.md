@@ -20,12 +20,22 @@ pip install edge-tts
 edge-tts --voice "sk-SK-ViktoriaNeural" --text "Americké námestie" --write-media americke.mp3
 ```
 
+## Webové rozhranie
+
+Pre spustenie webového rozhrania (pre vývoj) je potrebné mať nainštalovaný `nodejs`, odporúčaná verzia je 18.17.1 a vyššia.
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
 ## TODO
 
 - [x] pridanie hlásení zastávok
 - [ ] pridanie extra hlásení
 - [ ] nájdenie rovnakého anglického text-to-speech modelu, ktorý používa Dopravný podnik
-- [ ] webové rozhranie na štýl obrazovky "BUSE"
+- [X] webové rozhranie na štýl obrazovky "BUSE"
 
 
 ## Licencia
