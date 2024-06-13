@@ -1,6 +1,8 @@
+![](docs/screenshot.png)
+
 # Oznamovník
 
-Napodobenina hlásiča Bratislavských zastávok. Work in progress :).
+Napodobenina hlásiča Bratislavských zastávok. Work in progress :)
 
 
 ## Zoznam zastávok
