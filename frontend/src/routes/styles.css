@@ -1,7 +1,7 @@
 :root {
-	--color-header: #838a95;
-	--color-body: #4a555b;
-	--color-footer: #22252b;
+	--color-header: #595959;
+	--color-body: #3c3c3d;
+	--color-footer: #252525;
 
 	font-family: 'Roboto', sans-serif;
 }

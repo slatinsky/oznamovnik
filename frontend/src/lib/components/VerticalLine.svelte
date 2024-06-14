@@ -2,15 +2,18 @@
     interface MyProps {
         color: string;
         isEnd: boolean;
-        isAlmostEnd: boolean;
         isRequestStop: boolean;
+        stopsHidden: boolean;
+        showNextArrow: boolean;
     }
-    let { color, isEnd, isAlmostEnd, isRequestStop }: MyProps = $props();
+    let { color, isEnd, isRequestStop, stopsHidden, showNextArrow }: MyProps = $props();
 </script>
 
 <div class="vertical-line">
     {#if isEnd}
         <div class="end-overlay-bottom" style={`background-color: ${color}`}></div>
+    {/if}
+    {#if isEnd && stopsHidden}
         <div class="end-overlay" style={`background-color: ${color};top: 1svh`}></div>
         <div class="end-overlay" style={`background-color: ${color};top: 3svh`}></div>
         <div class="end-overlay" style={`background-color: ${color};top: 5svh`}></div>
@@ -21,7 +24,7 @@
         <div class="vertical-dot-innerinner"></div>
     {/if}
 
-    {#if !isEnd && !isAlmostEnd}
+    {#if showNextArrow}
         <svg class="chevron" style={`color: ${color}`} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
             ><path
                 fill="currentColor"

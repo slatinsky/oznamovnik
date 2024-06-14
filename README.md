@@ -2,8 +2,7 @@
 
 # Oznamovník
 
-Napodobenina hlásiča Bratislavských zastávok. Work in progress :)
-
+Napodobenina hlásiča Bratislavských zastávok. Zobrazuje a hlási zastávky v reálnom čase podľa cestovného poriadku. Work in progress :)
 
 ## Zoznam zastávok
 
@@ -24,6 +23,16 @@ edge-tts --voice "sk-SK-ViktoriaNeural" --text "Americké námestie" --write-med
 
 ## Webové rozhranie
 
+Webové rozhranie zobrazuje hlásenia v reálnom čase na štýl obrazovky "BUSE".
+
+
+### Nahratie cestovných poriadkov
+
+K webovému rozhraniu nie sú pribalené cestovné poriadky. Pre ich pridanie do zložky `frontend/static/gtfs` rozbaľte obsah zip súboru GTFS dát, ktorý si môžete stiahnuť z [online adresy](https://www.arcgis.com/sharing/rest/content/items/aba12fd2cbac4843bc7406151bc66106/data). Tieto dáta sú aktualizované niekoľko krát do mesiaca, pre ich aktualizáciu stačí znova  prepísať `.txt` súbory v rovnakej zložke.
+
+
+### Spustenie webového rozhrania
+
 Pre spustenie webového rozhrania (pre vývoj) je potrebné mať nainštalovaný `nodejs`, odporúčaná verzia je 18.17.1 a vyššia.
 
 ```bash
@@ -32,12 +41,15 @@ npm install
 npm run dev
 ```
 
+
+
 ## TODO
 
 - [x] pridanie hlásení zastávok
 - [ ] pridanie extra hlásení
 - [ ] nájdenie rovnakého anglického text-to-speech modelu, ktorý používa Dopravný podnik
 - [X] webové rozhranie na štýl obrazovky "BUSE"
+- [ ] pridanie hlásení do webového rozhrania
 
 
 ## Licencia
