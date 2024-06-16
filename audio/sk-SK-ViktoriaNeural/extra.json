@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "slug": "001-regale",
+        "text_to_speech": "Prosím, na uloženie batožiny použite regále",
+        "text_to_speech_en": "Please, use the shelves to store the luggage"
+    },
+    {
+        "id": "2",
+        "slug": "002-opatrnost",
+        "text_to_speech": "Prosím, zvýšte opatrnosť pri vystupovaní",
+        "text_to_speech_en": "Please take extra care while getting off"
+    },
+    {
+        "id": "3",
+        "slug": "003-ekologicky",
+        "text_to_speech": "Konečná zastávka, prosím vystúpte. Ďakujeme, že s dopravným podnikom Bratislava cestujete ekologicky.",
+        "text_to_speech_en": "Final stop, please exit. Thank you for using (???) friendly public transport"
+    },
+    {
+        "id": "4",
+        "slug": "004-nasleduje",
+        "text_to_speech": "Nasleduje zastávka, ",
+        "text_to_speech_en": "Next stop"
+    },
+    {
+        "id": "5",
+        "slug": "005-znamenie",
+        "text_to_speech": "Na znamenie",
+        "text_to_speech_en": "Request stop"
+    }
+]
