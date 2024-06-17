@@ -1,0 +1,13 @@
+name: "prod-oznamovnik"
+services:
+  frontend:
+    hostname: frontend
+    container_name: prod-oznamovnik-frontend
+    image: prod-oznamovnik-frontend
+    restart: always
+    build:
+      context: ./frontend
+      network: host
+      dockerfile: prod.Dockerfile
+    ports:
+      - 127.0.0.1:5171:80

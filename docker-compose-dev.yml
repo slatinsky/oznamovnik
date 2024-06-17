@@ -1,0 +1,16 @@
+name: "dev-oznamovnik"
+services:
+  frontend:
+    hostname: frontend
+    container_name: dev-oznamovnik-frontend
+    image: dev-oznamovnik-frontend
+    restart: always
+    build:
+      context: ./frontend
+      network: host
+      dockerfile: dev.Dockerfile
+    volumes:
+      - ./frontend/:/usr/src/app
+      - /usr/src/app/node_modules
+    ports:
+      - 127.0.0.1:5170:5173
