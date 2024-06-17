@@ -7,7 +7,7 @@
     import { HHMMSSToSeconds, nowSeconds, secondsToHHMMSS } from "$lib/datetime";
     import tts from "$lib/gtfs/tts.svelte";
 
-    const DEBUG = true;
+    let DEBUG = $state(false);
 
     interface MyProps {
         resolvedTrip: any;
@@ -27,6 +27,20 @@
         for (let i = 0; i < stopTimes.length; i++) {
             const stopTime = stopTimes[i];
             const stopTimeSeconds = HHMMSSToSeconds(stopTime.arrivalTime);
+
+            const relativeArrivalTime = relativeArrivalTimeSeconds(stopTime.arrivalTime);
+
+            if (relativeArrivalTime == 15) {
+                let stopCode = stopTime.stop.stopCode;
+                tts.playStop(stopCode);
+                if (i === stopTimes.length - 1) {
+                    tts.playExtra('003-ekologicky')
+                }
+                if (stopCode == "80") {  // blumentál
+                    tts.playExtra('002-opatrnost')
+                }
+            }
+
 
             if (stopTimeSeconds > nowSec) {
                 currentStopIndex = i;
@@ -60,7 +74,9 @@
 
         if (lastStopName !== toRet[0].stop.stopName) {
             lastStopName = toRet[0].stop.stopName;
-            tts.playStop(toRet[0].stop.stopCode);
+            let stopCode = toRet[0].stop.stopCode;
+            tts.playExtra('004-nasleduje')
+            tts.playStop(stopCode);
         }
 
         return toRet;
@@ -94,17 +110,22 @@
         sstate.resolvedTrip = null;
     }
 
-    function relativeArrivalTime(stopArrivalTime: string) {
+    function relativeArrivalTimeSeconds(stopArrivalTime: string) {
         const nowSec = nowSeconds()
         const stopTimeSeconds = HHMMSSToSeconds(stopArrivalTime);
         const diffSeconds = stopTimeSeconds - nowSec;
+
+        return diffSeconds;
+    }
+
+    function relativeArrivalTime(stopArrivalTime: string) {
+        const diffSeconds = relativeArrivalTimeSeconds(stopArrivalTime);
 
         if (diffSeconds < 0) {
             return `-${Math.abs(diffSeconds)} sec`
         }
         else if (diffSeconds < 60) {
-            return `${diffSeconds} sec`
-            // return "< 1 min";
+            return "< 1 min";
         }
         else {
             return Math.floor(diffSeconds / 60) + " min";
@@ -120,17 +141,17 @@
             <div>{secondsToHHMMSS(nowSeconds())} ({currentStopIndex})</div>
             <div> </div>
             {#each stopTimes as stopTime}
-                <div>{stopTime.arrivalTime} {stopTime.stop.stopName} {relativeArrivalTime(stopTime.arrivalTime)}</div>
+                <div>{stopTime.arrivalTime} {stopTime.stop.stopName} {relativeArrivalTimeSeconds(stopTime.arrivalTime)} sec</div>
             {/each}
             <div> </div>
             {#each selectedStopTimes as stopTime}
-                <div>{stopTime.arrivalTime} {stopTime.stop.stopName} {relativeArrivalTime(stopTime.arrivalTime)}</div>
+                <div>{stopTime.arrivalTime} {stopTime.stop.stopName} {relativeArrivalTimeSeconds(stopTime.arrivalTime)} sec</div>
             {/each}
             <div> </div>
-            <button onclick={()=>gtfs.moveTime(-60 * 5)}>-5 min</button>
             <button onclick={()=>gtfs.moveTime(-60)}>-1 min</button>
+            <button onclick={()=>gtfs.moveTime(-15)}>-15 sec</button>
+            <button onclick={()=>gtfs.moveTime(15)}>+15 sec</button>
             <button onclick={()=>gtfs.moveTime(60)}>+1 min</button>
-            <button onclick={()=>gtfs.moveTime(60 * 5)}>+5 min</button>
         </div>
     {/if}
 	<header>
@@ -251,7 +272,7 @@
 			<div class="time">
 				{time}
 			</div>
-			<div class="version">
+			<div class="version" onclick={()=> DEBUG = !DEBUG}>
 				10922283-289.230912
 			</div>
 		</div>
@@ -262,11 +283,12 @@
 <style>
     .debug {
         position: absolute;
-        bottom: 0;
+        bottom: 20svh;
         right: 0;
         background-color: white;
         padding: 1em;
         z-index: 10;
+        
     }
 	main {
 		width: 100%;
@@ -420,6 +442,8 @@
 			text-wrap: nowrap;
 			color: #6b6b6b;
 			padding: .5svh;
+
+            cursor: pointer;
 		}
 	}
 
