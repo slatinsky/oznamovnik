@@ -1,4 +1,6 @@
-let resolvedTrip = $state(null)
+import type { GtfsTrip } from "./gtfs/gtfs.svelte";
+
+let resolvedTrip: GtfsTrip | null = $state(null)
 
 
 function getState() {
@@ -6,8 +8,13 @@ function getState() {
 		get resolvedTrip() {
 			return resolvedTrip;
 		},
-        set resolvedTrip(value) {
+        set resolvedTrip(value: GtfsTrip | null) {
             resolvedTrip = value;
+            if (value == null) {
+                window.history.pushState({}, '', '/');
+            } else {
+                window.history.pushState({}, '', `?tripId=${value.tripId}`);
+            }
         }
     }
 }

@@ -5,6 +5,7 @@
     import VerticalLine from "./VerticalLine.svelte";
     import sstate from "$lib/state.svelte";
     import { HHMMSSToSeconds, nowSeconds, secondsToHHMMSS } from "$lib/datetime";
+    import tts from "$lib/gtfs/tts.svelte";
 
     const DEBUG = true;
 
@@ -16,6 +17,8 @@
     let time = $state("")
     let isTram = $derived(resolvedTrip.route?.routeType === 0);
 	let stopTimes = $derived(resolvedTrip.stopTimes)
+
+    let lastStopName = ""
     
 	// select stop based on current time
 	let currentStopIndex = $derived.by(() => {
@@ -54,6 +57,12 @@
             const stopTime = stopTimes[stopTimes.length - 1];
             toRet.push(stopTime);
         }
+
+        if (lastStopName !== toRet[0].stop.stopName) {
+            lastStopName = toRet[0].stop.stopName;
+            tts.playStop(toRet[0].stop.stopCode);
+        }
+
         return toRet;
 	});
 
