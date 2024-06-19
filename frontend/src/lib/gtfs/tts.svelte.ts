@@ -21,6 +21,7 @@ class Tts {
     responseExtrasLookup: Record<string, TtsExtra>
     queue: string[]
     isPlaying: boolean
+    audio: HTMLAudioElement | null
 
     constructor() {
         this.responseStops = []
@@ -29,6 +30,7 @@ class Tts {
         this.responseExtrasLookup = {}  // slug -> TtsExtra
         this.queue = []
         this.isPlaying = false
+        this.audio = null
     }
 
     async addToQueue(path: string) {
@@ -41,14 +43,34 @@ class Tts {
         this.isPlaying = true
         while (this.queue.length > 0) {
             const path = this.queue.shift()
-            const audio = new Audio(path);
-            audio.play();
+            this.audio = new Audio(path);
+            try {
+                this.audio.play();
+            } catch (error) {
+                console.error('Failed to play audio', error)
+            }
+
             // await for audio to finish
-            await new Promise((resolve) => {
-                audio.onended = resolve
+            await new Promise<void>((resolve: () => void) => {
+                if (!this.audio) {
+                    resolve()
+                }
+                else {
+                    this.audio.onended = resolve
+                }
             })
         }
         this.isPlaying = false
+    }
+
+    async stop() {
+        this.queue = []
+        if (this.audio) {
+            this.audio.pause()
+            this.audio = null
+        }
+        this.isPlaying = false
+
     }
     
     async init() {

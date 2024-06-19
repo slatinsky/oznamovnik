@@ -150,6 +150,10 @@ export interface GtfsStopTime {
     timepoint: string;
 }
 
+export interface GtfsStopTimeWithStop extends GtfsStopTime {
+    stop: GtfsStop;
+}
+
 // service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date
 // Prac.dny_0,1,1,1,1,1,0,0,20240602,20241231
 // Leto_1,1,1,1,1,1,0,0,20240602,20241231
@@ -419,6 +423,9 @@ class Gtfs {
     moveTime(offsetSeconds: number) {
         this.timeOffset += offsetSeconds;
     }
+    resetTime() {
+        this.timeOffset = 0;
+    }
 
 
     /**
@@ -459,5 +466,4 @@ class Gtfs {
 
 
 const gtfs = new Gtfs(false);
-await gtfs.init();
 export default gtfs;
