@@ -73,15 +73,17 @@
                     }
                 }
             }
-            else if (!stopArrivingAnnounced) {
-                stopArrivingAnnounced = true;
-                stopArrivalAnnounced = false;
-                let stopCode = stopTime.stop.stopCode;
-                tts.stop();
-                tts.playExtra('004-nasleduje')
-                tts.playStop(stopCode);
-                if (!isTram) {
-                    tts.playExtra('005-znamenie')
+            else if (relativeArrivalTime >= 25 && relativeArrivalTime <= 600) {
+                if (!stopArrivingAnnounced) {
+                    stopArrivingAnnounced = true;
+                    stopArrivalAnnounced = false;
+                    let stopCode = stopTime.stop.stopCode;
+                    tts.stop();
+                    tts.playExtra('004-nasleduje')
+                    tts.playStop(stopCode);
+                    if (!isTram) {
+                        tts.playExtra('005-znamenie')
+                    }
                 }
             }
         }
@@ -208,7 +210,7 @@
                             {/each}
                         </div>
                     </div>
-                    <div class="area">
+                    <div class="zone">
                         {selectedStopTimes[0].stop.zoneId}
                     </div>
                 {/if}
@@ -232,7 +234,7 @@
                         {/each}
                     </div>
                 </div>
-                <div class="area">
+                <div class="zone">
                     {selectedStopTimes[1].stop.zoneId}
                 </div>
             {/if}
@@ -253,7 +255,7 @@
                         {/each}
                     </div>
                 </div>
-                <div class="area">
+                <div class="zone">
                     {selectedStopTimes[2].stop.zoneId}
                 </div>
             {/if}
@@ -274,7 +276,7 @@
                         {/each}
                     </div>
                 </div>
-                <div class="area">
+                <div class="zone">
                     {selectedStopTimes[3].stop.zoneId}
                 </div>
             {/if}
@@ -298,7 +300,7 @@
                         {/each}
                     </div>
                 </div>
-                <div class="area">
+                <div class="zone">
                     {selectedStopTimes[4].stop.zoneId}
                 </div>
             {/if}
@@ -418,6 +420,8 @@
 
 			margin-left: 3svh;
 
+            
+
 			.stopname {
 				font-size: 8svh;
 				font-weight: 600;
@@ -437,8 +441,13 @@
 				width: max-content;
 			}
 		}
+        @media (orientation: portrait) {
+            .stop-wrapper {
+                width: calc(100svw - 35svh);
+            }
+        }
 
-		.area {
+		.zone {
 			position: absolute;
 			right: 25svh;
 			width: 20svh;
@@ -448,6 +457,12 @@
 			display: grid;
 			place-items: center;
 		}
+
+        @media (orientation: portrait) {
+            .zone {
+                display: none;
+            }
+        }
 	}
 
 	footer {
@@ -484,5 +499,4 @@
             cursor: pointer;
 		}
 	}
-
 </style>
