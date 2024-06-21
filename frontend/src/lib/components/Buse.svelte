@@ -38,13 +38,14 @@
         for (let i = 0; i < stopTimes.length; i++) {
             const stopTime = stopTimes[i];
             const stopTimeSeconds = HHMMSSToSeconds(stopTime.arrivalTime);
-
+            
             if (stopTimeSeconds > nowSec) {
                 currentStopIndexCandidate = i;
                 break;
             }
         }
         currentStopIndex = currentStopIndexCandidate
+        const isLastStop = currentStopIndex === stopTimes.length - 1;
 
         if (currentStopIndex !== lastStopIndex) {
             stopArrivalAnnounced = false;
@@ -57,6 +58,7 @@
         if (currentStopIndex !== -1) {
             const stopTime = stopTimes[currentStopIndex];
             const relativeArrivalTime = relativeArrivalTimeSeconds(stopTime.arrivalTime);
+            
             // announce arrival 15 seconds before leaving the stop
             if (relativeArrivalTime <= 15) {
                 if (!stopArrivalAnnounced) {
@@ -81,7 +83,7 @@
                     tts.stop();
                     tts.playExtra('004-nasleduje')
                     tts.playStop(stopCode);
-                    if (!isTram) {
+                    if (!isTram && !isLastStop) {
                         tts.playExtra('005-znamenie')
                     }
                 }
@@ -197,13 +199,14 @@
                     <Route routeId={resolvedTrip.routeId} size="big"/>
                 </div>
                 {#if selectedStopTimes.length > 0}
+                    {@const selectedStopTime = selectedStopTimes[0]}
                     <div class="vertical-line">
-                        <VerticalLine color={"var(--color-header)"} showNextArrow={currentStopIndex !== maxStopIndex} isEnd={currentStopIndex === maxStopIndex} isRequestStop={selectedStopTimes[0].dropOffType === 3} stopsHidden={false}/>
+                        <VerticalLine color={"var(--color-header)"} showNextArrow={currentStopIndex !== maxStopIndex} isEnd={currentStopIndex === maxStopIndex} isRequestStop={selectedStopTime.dropOffType === 3} stopsHidden={false}/>
                     </div>
                     <div class="stop-wrapper">
-                        <div class="stopname">{selectedStopTimes[0].stop.stopName}</div>
+                        <div class="stopname">{selectedStopTime.stop.stopName}</div>
                         <div class="stop-services">
-                            {#each selectedStopTimes[0].stop.routeIds as routeId}
+                            {#each selectedStopTime.stop.routeIds as routeId}
                                 {#if routeId !== resolvedTrip.routeId}
                                     <Route routeId={routeId} size="medium"/>
                                 {/if}
@@ -211,7 +214,7 @@
                         </div>
                     </div>
                     <div class="zone">
-                        {selectedStopTimes[0].stop.zoneId}
+                        {selectedStopTime.stop.zoneId}
                     </div>
                 {/if}
             </div>
@@ -220,14 +223,15 @@
 	<section>
 		<div class="section-row">
             {#if selectedStopTimes.length > 1}
-                <div class="minutes">{relativeArrivalTime(selectedStopTimes[1].arrivalTime)}</div>
+                {@const selectedStopTime = selectedStopTimes[1]}
+                <div class="minutes">{relativeArrivalTime(selectedStopTime.arrivalTime)}</div>
                 <div class="vertical-line">
-                    <VerticalLine color={"var(--color-body)"} showNextArrow={currentStopIndex + 1 !== maxStopIndex} isEnd={currentStopIndex + 1 === maxStopIndex} isRequestStop={selectedStopTimes[1].dropOffType === 3} stopsHidden={false}/>
+                    <VerticalLine color={"var(--color-body)"} showNextArrow={currentStopIndex + 1 !== maxStopIndex} isEnd={currentStopIndex + 1 === maxStopIndex} isRequestStop={selectedStopTime.dropOffType === 3} stopsHidden={false}/>
                 </div>
                 <div class="stop-wrapper">
-                    <div class="stopname clickable" onclick={()=>{gtfs.moveTime(relativeArrivalTimeSeconds(selectedStopTimes[1].arrivalTime) - 30);update()}}>{selectedStopTimes[1].stop.stopName}</div>
+                    <div class="stopname clickable" onclick={()=>{gtfs.moveTime(relativeArrivalTimeSeconds(selectedStopTime.arrivalTime) - 30);update()}}>{selectedStopTime.stop.stopName}</div>
                     <div class="stop-services">
-                        {#each selectedStopTimes[1].stop.routeIds as routeId}
+                        {#each selectedStopTime.stop.routeIds as routeId}
                             {#if routeId !== resolvedTrip.routeId}
                                 <Route routeId={routeId} size="medium"/>
                             {/if}
@@ -235,20 +239,21 @@
                     </div>
                 </div>
                 <div class="zone">
-                    {selectedStopTimes[1].stop.zoneId}
+                    {selectedStopTime.stop.zoneId}
                 </div>
             {/if}
 		</div>
 		<div class="section-row">
             {#if selectedStopTimes.length > 2}
-                <div class="minutes">{relativeArrivalTime(selectedStopTimes[2].arrivalTime)}</div>
+                {@const selectedStopTime = selectedStopTimes[2]}
+                <div class="minutes">{relativeArrivalTime(selectedStopTime.arrivalTime)}</div>
                 <div class="vertical-line">
-                    <VerticalLine color={"var(--color-body)"} showNextArrow={currentStopIndex + 2 !== maxStopIndex} isEnd={currentStopIndex + 2 === maxStopIndex} isRequestStop={selectedStopTimes[2].dropOffType === 3} stopsHidden={false}/>
+                    <VerticalLine color={"var(--color-body)"} showNextArrow={currentStopIndex + 2 !== maxStopIndex} isEnd={currentStopIndex + 2 === maxStopIndex} isRequestStop={selectedStopTime.dropOffType === 3} stopsHidden={false}/>
                 </div>
                 <div class="stop-wrapper">
-                    <div class="stopname clickable" onclick={()=>{gtfs.moveTime(relativeArrivalTimeSeconds(selectedStopTimes[2].arrivalTime) - 30);update()}}>{selectedStopTimes[2].stop.stopName}</div>
+                    <div class="stopname clickable" onclick={()=>{gtfs.moveTime(relativeArrivalTimeSeconds(selectedStopTime.arrivalTime) - 30);update()}}>{selectedStopTime.stop.stopName}</div>
                     <div class="stop-services">
-                        {#each selectedStopTimes[2].stop.routeIds as routeId}
+                        {#each selectedStopTime.stop.routeIds as routeId}
                             {#if routeId !== resolvedTrip.routeId}
                                 <Route routeId={routeId} size="medium"/>
                             {/if}
@@ -256,20 +261,21 @@
                     </div>
                 </div>
                 <div class="zone">
-                    {selectedStopTimes[2].stop.zoneId}
+                    {selectedStopTime.stop.zoneId}
                 </div>
             {/if}
 		</div>
 		<div class="section-row">
             {#if selectedStopTimes.length > 3}
-                <div class="minutes">{relativeArrivalTime(selectedStopTimes[3].arrivalTime)}</div>
+                {@const selectedStopTime = selectedStopTimes[3]}
+                <div class="minutes">{relativeArrivalTime(selectedStopTime.arrivalTime)}</div>
                 <div class="vertical-line">
-                    <VerticalLine color={"var(--color-body)"} showNextArrow={false} isEnd={currentStopIndex + 3 === maxStopIndex} isRequestStop={selectedStopTimes[3].dropOffType === 3} stopsHidden={false}/>
+                    <VerticalLine color={"var(--color-body)"} showNextArrow={false} isEnd={currentStopIndex + 3 === maxStopIndex} isRequestStop={selectedStopTime.dropOffType === 3} stopsHidden={false}/>
                 </div>
                 <div class="stop-wrapper">
-                    <div class="stopname clickable" onclick={()=>{gtfs.moveTime(relativeArrivalTimeSeconds(selectedStopTimes[3].arrivalTime) - 30);update()}}>{selectedStopTimes[3].stop.stopName}</div>
+                    <div class="stopname clickable" onclick={()=>{gtfs.moveTime(relativeArrivalTimeSeconds(selectedStopTime.arrivalTime) - 30);update()}}>{selectedStopTime.stop.stopName}</div>
                     <div class="stop-services">
-                        {#each selectedStopTimes[3].stop.routeIds as routeId}
+                        {#each selectedStopTime.stop.routeIds as routeId}
                             {#if routeId !== resolvedTrip.routeId}
                                 <Route routeId={routeId} size="medium"/>
                             {/if}
@@ -277,7 +283,7 @@
                     </div>
                 </div>
                 <div class="zone">
-                    {selectedStopTimes[3].stop.zoneId}
+                    {selectedStopTime.stop.zoneId}
                 </div>
             {/if}
 		</div>
@@ -286,14 +292,15 @@
 	<footer>
 		<div class="section-row">
             {#if selectedStopTimes.length > 4}
-                <div class="minutes">{relativeArrivalTime(selectedStopTimes[4].arrivalTime)}</div>
+                {@const selectedStopTime = selectedStopTimes[4]}
+                <div class="minutes">{relativeArrivalTime(selectedStopTime.arrivalTime)}</div>
                 <div class="vertical-line">
-                    <VerticalLine color={"var(--color-footer)"} showNextArrow={false} isEnd={true} isRequestStop={selectedStopTimes[4].dropOffType === 3} stopsHidden={stopsHidden}/>
+                    <VerticalLine color={"var(--color-footer)"} showNextArrow={false} isEnd={true} isRequestStop={selectedStopTime.dropOffType === 3} stopsHidden={stopsHidden}/>
                 </div>
                 <div class="stop-wrapper">
-                    <div class="stopname clickable" onclick={()=>{gtfs.moveTime(relativeArrivalTimeSeconds(selectedStopTimes[4].arrivalTime) - 30);update()}}>{selectedStopTimes[4].stop.stopName}</div>
+                    <div class="stopname clickable" onclick={()=>{gtfs.moveTime(relativeArrivalTimeSeconds(selectedStopTime.arrivalTime) - 30);update()}}>{selectedStopTime.stop.stopName}</div>
                     <div class="stop-services">
-                        {#each selectedStopTimes[4].stop.routeIds as routeId}
+                        {#each selectedStopTime.stop.routeIds as routeId}
                             {#if routeId !== resolvedTrip.routeId}
                                 <Route routeId={routeId} size="medium"/>
                             {/if}
@@ -301,7 +308,7 @@
                     </div>
                 </div>
                 <div class="zone">
-                    {selectedStopTimes[4].stop.zoneId}
+                    {selectedStopTime.stop.zoneId}
                 </div>
             {/if}
 			<div class="time">

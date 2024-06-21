@@ -94,7 +94,7 @@ class Tts {
         const stop = this.responseStopsLookup[stopCode]
         if (stop) {
             // play file `/audio/sk-SK-ViktoriaNeural/stops/${stop.slug}.mp3`
-            console.log(`Playing stop ${stop.stop_name}`)
+            console.log(`Playing '${stop.stop_name}'`)
 
             const audioUrl = `/audio/sk-SK-ViktoriaNeural/stops/${stop.slug}.mp3`;
             this.addToQueue(audioUrl)
@@ -104,7 +104,7 @@ class Tts {
         const extra = this.responseExtrasLookup[extraId]
         if (extra) {
             // play file `/audio/sk-SK-ViktoriaNeural/extras/${extra.slug}.mp3`
-            console.log(`Playing extra ${extra.text_to_speech}`)
+            console.log(`Playing '${extra.text_to_speech}'`)
             const audioUrl = `/audio/sk-SK-ViktoriaNeural/extras/${extra.slug}.mp3`;
             this.addToQueue(audioUrl)
         }
